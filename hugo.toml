@@ -1,0 +1,9 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Jack Nikodem - AI/ML Strategy Consultant'
+theme = 'ananke'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
