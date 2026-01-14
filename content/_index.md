@@ -3,15 +3,13 @@ title: "Jack Nikodem"
 date: 2024-08-02
 ---
 
-<div style="text-align: center; margin: 2em 0;">
-  <img src="/images/jack.png" alt="Jack Nikodem" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; display: inline-block;">
+<div style="text-align: center; margin: 0.5em 0;">
+  <img src="/images/jack.png" alt="Jack Nikodem" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; display: inline-block; margin: 0;">
 </div>
 
 <div style="text-align: center;">
 
 # Jack Nikodem
-
-AI/ML Strategy Consultant
 
 _"AI demos aren't the problem. The lack of strategy is."_
 
@@ -24,13 +22,25 @@ _"AI demos aren't the problem. The lack of strategy is."_
 
 ---
 
+<div class="two-column-layout">
+<div class="left-column">
+
 ## Consulting
 
-I help companies go through the AI transformation. More about my [CAIO services](/the-fractional-caio/) or book a 30-min AI strategy diagnostic → [Calendly](https://calendly.com)
+I help companies go through the AI transformation.
+More about my [CAIO services](/the-fractional-caio/).
 
 ## Writing
 
-I've written over 600 articles on ML leadership. Follow along at [jacknikodem.substack.com](https://jacknikodem.substack.com).
+I've written over 650 articles on ML leadership.
+Follow along at [jacknikodem.substack.com](https://jacknikodem.substack.com).
+
+## About
+
+Read what [clients and colleagues say](/testimonials/) about working together. More about my [background and experience](/about_me/).
+
+</div>
+<div class="right-column">
 
 ## Where I've made a difference
 
@@ -43,3 +53,6 @@ I've written over 600 articles on ML leadership. Follow along at [jacknikodem.su
 - Made YouTube safer with **DeepMind's AI**.
 
 - Delivered **the biggest ads uplift in YouTube's history** with AlphaGo-style algorithm.
+
+</div>
+</div>

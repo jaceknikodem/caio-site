@@ -11,6 +11,12 @@ main img {
     margin: 1em 0 !important;
 }
 
+/* Profile photo should be circular */
+div[style*="text-align: center"] img {
+    border-radius: 50% !important;
+    margin: 0 !important;
+}
+
 /* Center content styling */
 .nested-copy-line-height p {
     line-height: 1.8;
@@ -19,5 +25,74 @@ main img {
 /* Preserve line breaks in centered divs */
 div[style*="text-align: center"] {
     white-space: pre-line;
+    line-height: 0.9 !important;
+}
+
+div[style*="text-align: center"] p {
+    margin: 0.1em 0 !important;
+}
+
+div[style*="text-align: center"] h1 {
+    margin-bottom: 0.2em !important;
+    margin-top: 0.3em !important;
+}
+
+div[style*="text-align: center"] em {
+    font-size: 1.1em !important;
+    font-style: italic !important;
+}
+
+/* Left-align bullet lists */
+article ul {
+    text-align: left !important;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article ul li {
+    text-align: left !important;
+}
+
+/* Reduce spacing between content and footer */
+article {
+    padding-bottom: 1rem !important;
+}
+
+footer {
+    padding-top: 1rem !important;
+}
+
+/* Two-column layout */
+.two-column-layout {
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+    text-align: left !important;
+    font-size: 0.8rem !important;
+}
+
+.left-column {
+    flex: 1;
+    min-width: 0;
+}
+
+.right-column {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Make it stack on mobile */
+@media (max-width: 768px) {
+    .two-column-layout {
+        flex-direction: column;
+    }
+}
+
+/* Reset text alignment for two-column content */
+.two-column-layout h2,
+.two-column-layout p,
+.two-column-layout ul {
+    text-align: left !important;
 }
 </style>
