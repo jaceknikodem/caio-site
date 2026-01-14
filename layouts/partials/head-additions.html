@@ -2,13 +2,22 @@
 /* Make testimonial images consistent size */
 article img,
 .post-content img,
-main img,
-img {
+main img {
     max-width: 200px !important;
     width: 200px !important;
     height: 200px !important;
     object-fit: cover !important;
     border-radius: 8px !important;
     margin: 1em 0 !important;
+}
+
+/* Center content styling */
+.nested-copy-line-height p {
+    line-height: 1.8;
+}
+
+/* Preserve line breaks in centered divs */
+div[style*="text-align: center"] {
+    white-space: pre-line;
 }
 </style>
