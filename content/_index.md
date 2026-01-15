@@ -4,7 +4,7 @@ date: 2024-08-02
 ---
 
 <div style="text-align: center; margin: 0.5em 0;">
-  <img src="/images/jack.png" alt="Jack Nikodem" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; display: inline-block; margin: 0;">
+  <img src="images/jack.png" alt="Jack Nikodem" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; display: inline-block; margin: 0;">
 </div>
 
 <div style="text-align: center;">
@@ -28,7 +28,7 @@ _"AI demos aren't the problem. The lack of strategy is."_
 ## Consulting
 
 I help companies go through the AI transformation.
-More about my [CAIO services](/the-fractional-caio/).
+More about my [CAIO services](the-fractional-caio/).
 
 ## Writing
 
@@ -37,7 +37,7 @@ Follow along at [jacknikodem.substack.com](https://jacknikodem.substack.com).
 
 ## About
 
-Read what [clients and colleagues say](/testimonials/) about working together. More about my [background and experience](/about_me/).
+Read what [clients and colleagues say](testimonials/) about working together. More about my [background and experience](about_me/).
 
 </div>
 <div class="right-column">
