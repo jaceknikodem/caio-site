@@ -4,7 +4,7 @@ date: 2024-08-02
 ---
 
 <div style="text-align: center; margin: 0.5em 0;">
-  <img src="images/jack.png" alt="Jack Nikodem" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; display: inline-block; margin: 0;">
+  <img src="/images/jack.png" alt="Jack Nikodem" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; display: inline-block; margin: 0;">
 </div>
 
 <div style="text-align: center;">
