@@ -1,4 +1,4 @@
-baseURL = 'https://jaceknikodem.github.io/caio-site/'
+baseURL = 'https://jacknikodem.com/'
 languageCode = 'en-us'
 title = 'Jack Nikodem - AI/ML Strategy Consultant'
 theme = 'ananke'
