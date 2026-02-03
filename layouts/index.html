@@ -27,6 +27,11 @@
     text-align: center;
   }
 
+  /* Image on top for mobile */
+  .hero-visual {
+    order: -1;
+  }
+
   @media (min-width: 900px) {
     .home-hero {
       padding: 5rem 2rem 3rem;
@@ -41,14 +46,15 @@
       /* Explicit gap between text and image */
     }
 
-    .hero-text {
-      flex: 0 1 600px;
-      /* Flex shrink/grow and basis */
-    }
-
+    /* Reset order for desktop */
     .hero-visual {
+      order: unset;
       flex: 0 0 auto;
       /* Stop it from growing too far */
+    }
+
+    .hero-text {
+      flex: 0 1 600px;
     }
   }
 
