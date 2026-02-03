@@ -5,18 +5,7 @@
 {{ define "main" }}
 <style>
   /* Base Styles */
-  :root {
-    --recursive-green: #004d3d;
-    --recursive-light: #f8f9fa;
-    --recursive-text: #1a1a1a;
-    --recursive-gray: #666;
-  }
-
-  body {
-    background-color: #fff;
-    color: var(--recursive-text);
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
+  /* Global styles are now imported from head-additions.html */
 
   /* Hero Section */
   .home-hero {
@@ -95,7 +84,7 @@
   .hero-subtitle {
     font-size: 1.3rem;
     /* Slightly reduced */
-    color: var(--recursive-gray);
+    color: var(--default-gray);
     font-weight: 300;
     margin-bottom: 1.5rem;
     /* Reduced from 2.5rem */
@@ -116,7 +105,7 @@
     font-size: 1rem;
     /* Reduced */
     font-weight: 500;
-    color: var(--recursive-text);
+    color: var(--default-text);
     background: rgba(255, 255, 255, 0.8);
     padding: 0.6rem 1rem;
     /* Compact padding */
@@ -188,7 +177,7 @@
     margin-bottom: 2rem;
     /* Reduced from 3rem */
     text-align: center;
-    color: var(--recursive-green);
+    color: var(--default-green);
   }
 
   .impact-grid {
@@ -204,7 +193,7 @@
     gap: 1rem;
     padding: 1.5rem;
     /* Reduced from 2rem */
-    background: var(--recursive-light);
+    background: var(--default-light);
     border-radius: 12px;
     transition: transform 0.2s ease;
   }
@@ -216,7 +205,7 @@
   }
 
   .impact-check {
-    color: var(--recursive-green);
+    color: var(--default-green);
     font-size: 1.25rem;
     flex-shrink: 0;
   }
@@ -231,7 +220,7 @@
 
   .impact-content p {
     margin: 0;
-    color: var(--recursive-gray);
+    color: var(--default-gray);
     line-height: 1.4;
     font-size: 0.95rem;
     /* Reduced */
@@ -277,7 +266,7 @@
   }
 
   .cta-card:hover {
-    border-color: var(--recursive-green);
+    border-color: var(--default-green);
     box-shadow: 0 15px 30px rgba(0, 77, 61, 0.08);
   }
 
@@ -294,7 +283,7 @@
   }
 
   .cta-card p {
-    color: var(--recursive-gray);
+    color: var(--default-gray);
     line-height: 1.5;
     margin-bottom: 1.5rem;
     /* Reduced */
@@ -305,7 +294,7 @@
     display: inline-block;
     padding: 0.8rem 1.5rem;
     /* Reduced padding */
-    background: var(--recursive-text);
+    background: var(--default-text);
     color: #fff;
     border-radius: 50px;
     text-decoration: none;
@@ -316,7 +305,7 @@
   }
 
   .cta-card:hover .cta-link {
-    background: var(--recursive-green);
+    background: var(--default-green);
   }
 
   @media (min-width: 900px) {

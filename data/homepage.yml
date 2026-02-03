@@ -47,7 +47,7 @@ cta_cards:
     image: "/images/ping.gif" # Placeholder
 
   - title: "Writing"
-    description: "Over 650 articles on ML leadership. Insights on building AI teams and shipping products."
+    description: "Over 700 articles on ML leadership. Insights on building AI teams and shipping products."
     link: "https://jacknikodem.substack.com"
     link_text: "Read Substack"
     external: true
