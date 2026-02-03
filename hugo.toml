@@ -8,3 +8,16 @@ canonifyURLs = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[minify]
+  minifyOutput = true
+  disableXML = false
+  disableHTML = false
+  disableCSS = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+
+[build]
+  useResourceCache = true
+  checkWatchedFiles = true

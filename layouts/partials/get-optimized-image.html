@@ -1,0 +1,16 @@
+{{ $imgSrc := .src }}
+{{ $imgOpt := "" }}
+{{ $width := .width | default "600x" }}
+{{ $format := .format | default "webp" }}
+
+{{ if (strings.HasPrefix $imgSrc "/images/") }}
+{{ $assetPath := strings.TrimPrefix "/" $imgSrc }}
+{{ $res := resources.Get $assetPath }}
+{{ if $res }}
+{{ $processOpts := printf "%s %s" $width $format }}
+{{ $imgOpt = $res.Resize $processOpts }}
+{{ $imgSrc = $imgOpt.RelPermalink }}
+{{ end }}
+{{ end }}
+
+{{ return (dict "src" $imgSrc "res" $imgOpt) }}

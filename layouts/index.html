@@ -1,3 +1,11 @@
+{{ define "head" }}
+{{ partial "head-additions.html" . }}
+{{ with .Site.Data.homepage.hero.image }}
+{{ $opt := partial "get-optimized-image.html" (dict "src" . "width" "600x" "format" "webp") }}
+<link rel="preload" href="{{ $opt.src }}" as="image" fetchpriority="high">
+{{ end }}
+{{ end }}
+
 {{ define "header" }}
 {{ partial "page-header.html" . }}
 {{ end }}
@@ -351,7 +359,9 @@
     </div>
 
     <div class="hero-visual">
-      <img src="{{ .hero.image }}" alt="Jack Nikodem" class="hero-image">
+      {{ $opt := partial "get-optimized-image.html" (dict "src" .hero.image "width" "600x" "format" "webp") }}
+      <img src="{{ $opt.src }}" alt="Jack Nikodem" class="hero-image" loading="eager" fetchpriority="high" width="300"
+        height="300">
     </div>
   </div>
 </section>

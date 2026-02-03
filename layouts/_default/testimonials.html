@@ -147,7 +147,18 @@
     <div class="testimonial-card">
         {{ if .image }}
         <div class="testimonial-image-wrapper">
-            <img src="{{ .image }}" alt="{{ .name }}" class="testimonial-image" loading="lazy">
+            {{ $imgSrc := .image }}
+            {{/* Optimization Logic */}}
+            {{ if (strings.HasPrefix $imgSrc "/images/") }}
+            {{ $assetPath := strings.TrimPrefix "/" $imgSrc }}
+            {{ $res := resources.Get $assetPath }}
+            {{ if $res }}
+            {{/* Resize to 300px width (150px display @ 2x retina) and convert to WebP */}}
+            {{ $imgOpt := $res.Resize "300x webp" }}
+            {{ $imgSrc = $imgOpt.RelPermalink }}
+            {{ end }}
+            {{ end }}
+            <img src="{{ $imgSrc }}" alt="{{ .name }}" class="testimonial-image" loading="lazy">
         </div>
         {{ end }}
         <div class="testimonial-content">
