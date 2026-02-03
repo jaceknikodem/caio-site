@@ -1,0 +1,54 @@
+hero:
+  title: "Jack Nikodem"
+  subtitle: "AI demos aren't the problem. The lack of strategy is."
+  image: "/images/jack.png"
+  badges:
+    - icon: "🚀"
+      text: "20+ AI products shipped to 1B+ users"
+    - icon: "🏆"
+      text: "Top 10 innovation at Google (Pixel Recorder AI)"
+    - icon: "💰"
+      text: "$XXXM revenue impact at DeepMind/YouTube"
+    - icon: "🌍"
+      text: "Built AI teams across US & Asia"
+
+sections:
+  - title: "Where I made a difference"
+    type: "list"
+    items:
+      - title: "On-Device AI"
+        description: "Made Pixel \"the smartest phone in the room\" with on-device AI."
+      - title: "Innovation"
+        description: "Top 10 tech innovation at Google: Pixel Recorder's AI summaries."
+      - title: "Scale"
+        description: "Empowered >80k engineers with LLM-based dev tools."
+      - title: "Safety"
+        description: "Made YouTube safer with DeepMind's AI."
+      - title: "Ads Optimization"
+        description: "Delivered the biggest ads uplift in YouTube's history with AlphaGo-style algorithm."
+
+cta_cards:
+  - title: "The Fractional CAIO"
+    description: "I help companies go through the AI transformation. Strategic clarity and products that ship value in <12 months."
+    link: "/the-fractional-caio/"
+    link_text: "View Services"
+    image: "/images/ping.gif" # Placeholder/abstract
+
+  - title: "About Me"
+    description: "Read about my background, experience at DeepMind & Google, and what colleagues say about working together."
+    link: "/about_me/"
+    link_text: "Read Bio"
+    image: "/images/jack.png" 
+
+  - title: "Testimonials"
+    description: "Read what clients and colleagues say about working together."
+    link: "/testimonials/"
+    link_text: "View Testimonials"
+    image: "/images/ping.gif" # Placeholder
+
+  - title: "Writing"
+    description: "Over 650 articles on ML leadership. Insights on building AI teams and shipping products."
+    link: "https://jacknikodem.substack.com"
+    link_text: "Read Substack"
+    external: true
+    image: "/images/sundar.jpeg" # Placeholder
