@@ -26,6 +26,8 @@ sections:
         description: "Made YouTube safer with DeepMind's AI."
       - title: "Ads Optimization"
         description: "Delivered the biggest ads uplift in YouTube's history with AlphaGo-style algorithm."
+      - title: "DeepMind"
+        description: "Pioneering the deployment of DeepMind technology into 1 billion+ user products."
 
 cta_cards:
   - title: "The Fractional CAIO"
@@ -35,7 +37,7 @@ cta_cards:
     image: "/images/ping.gif" # Placeholder/abstract
 
   - title: "About Me"
-    description: "Read about my background, experience at DeepMind & Google, and what colleagues say about working together."
+    description: "Read about my background, experience at DeepMind & Google, and other places."
     link: "/about_me/"
     link_text: "Read Bio"
     image: "/images/jack.png" 
