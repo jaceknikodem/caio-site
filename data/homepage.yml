@@ -5,12 +5,14 @@ hero:
   badges:
     - icon: "🚀"
       text: "20+ AI products shipped to 1B+ users"
-    - icon: "🏆"
-      text: "Top 10 innovation at Google (Pixel Recorder AI)"
     - icon: "💰"
       text: "$XXXM revenue impact at DeepMind/YouTube"
     - icon: "🌍"
       text: "Built AI teams across US & Asia"
+    - icon: "🌱"
+      text: "Strengthened AI teams from seed-stage startups to world-class AI labs"
+    - icon: "💼"
+      text: "Trusted by pre-PMF ventures to multi-billion dollar PE funds"
 
 sections:
   - title: "Where I made a difference"
