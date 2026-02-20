@@ -1,6 +1,6 @@
 baseURL = 'https://jacknikodem.com/'
 languageCode = 'en-us'
-title = 'Jack Nikodem - AI/ML Strategy Consultant'
+title = 'AI/ML Strategy Consultant'
 theme = 'ananke'
 canonifyURLs = true
 
