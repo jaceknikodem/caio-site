@@ -35,24 +35,24 @@ cta_cards:
   - title: "The Fractional CAIO"
     description: "I help companies go through the AI transformation. Strategic clarity and products that ship value in <12 months."
     link: "/the-fractional-caio/"
-    link_text: "View Services"
+    link_text: "View services"
     image: "/images/ping.gif" # Placeholder/abstract
 
   - title: "About Me"
-    description: "Read about my background, experience at DeepMind & Google, and other places."
+    description: "Read about my background and experience."
     link: "/about_me/"
-    link_text: "Read Bio"
+    link_text: "Read bio"
     image: "/images/jack.png" 
 
   - title: "Testimonials"
     description: "Read what clients and colleagues say about working together."
     link: "/testimonials/"
-    link_text: "View Testimonials"
+    link_text: "View testimonials"
     image: "/images/ping.gif" # Placeholder
 
   - title: "Writing"
     description: "Over 700 articles on ML leadership. Insights on building AI teams and shipping products."
     link: "https://jacknikodem.substack.com"
-    link_text: "Read Substack"
+    link_text: "Read substack"
     external: true
     image: "/images/sundar.jpeg" # Placeholder
