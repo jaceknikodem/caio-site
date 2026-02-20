@@ -1,0 +1,94 @@
+{{ $featured_image := partials.Include "func/GetFeaturedImage.html" . }}
+{{ if $featured_image }}
+  {{ $featured_image_class := .Params.featured_image_class | compare.Default "cover bg-center" }}
+  {{ $cover_dimming_class := .Params.cover_dimming_class | compare.Default "bg-black-60" }}
+  <header class="{{ $featured_image_class }}" style="background-image: url('{{ $featured_image }}'); position: relative; overflow: hidden;">
+    <svg id="nav-canvas" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 0;"></svg>
+    <div class="{{ $cover_dimming_class }}" style="position: relative; z-index: 1;">
+      {{ partials.Include "site-navigation.html" . }}
+      <div class="tc-l pv6 ph3 ph4-ns">
+        {{ if not .Params.omit_header_text }}
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">{{ .Title | compare.Default .Site.Title }}</div>
+          {{ with .Params.description }}
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">{{ . }}</div>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </header>
+{{ else }}
+  <header class="{{ .Site.Params.background_color_class | compare.Default "bg-black" }}" style="position: relative; overflow: hidden;">
+    <svg id="nav-canvas" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 0;"></svg>
+    <div style="position: relative; z-index: 1;">
+      {{ partials.Include "site-navigation.html" . }}
+    </div>
+  </header>
+{{ end }}
+
+<script>
+(function () {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  var scr = document.createElement('script');
+  scr.src = 'https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js';
+  scr.onload = init;
+  document.head.appendChild(scr);
+
+  function init() {
+    var svgEl = document.getElementById('nav-canvas');
+    if (!svgEl) return;
+    var nav = document.querySelector('header');
+    var W = nav.offsetWidth;
+    var H = nav.offsetHeight;
+
+    svgEl.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    window.addEventListener('resize', function () {
+      W = nav.offsetWidth;
+      H = nav.offsetHeight;
+      svgEl.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    });
+
+    var waveDefs = [
+      { cy: 0.22, a1: 11, a2: 4, f1: 0.008, f2: 0.015, spd: 0.003, o2: 1.2, op: 0.2, lw: 10 },
+      { cy: 0.52, a1: 13, a2: 5, f1: 0.006, f2: 0.012, spd: 0.002, o2: 2.5, op: 0.15, lw: 14 },
+      { cy: 0.82, a1: 10, a2: 3, f1: 0.010, f2: 0.018, spd: 0.004, o2: 0.8, op: 0.25, lw: 10 },
+    ];
+
+    var phases = waveDefs.map(function () { return Math.random() * Math.PI * 2; });
+    var STEP = 4;
+
+    var lineGen = d3.line()
+      .x(function (pt) { return pt[0]; })
+      .y(function (pt) { return pt[1]; })
+      .curve(d3.curveCatmullRom.alpha(0.5));
+
+    var paths = waveDefs.map(function (w) {
+      return d3.select(svgEl)
+        .append('path')
+        .attr('fill', 'none')
+        .attr('stroke', '#00cc66')
+        .attr('stroke-width', w.lw)
+        .attr('opacity', w.op)
+        .node();
+    });
+
+    function render() {
+      for (var idx = 0; idx < waveDefs.length; idx++) {
+        var w = waveDefs[idx];
+        phases[idx] += w.spd;
+        var pts = [];
+        for (var x = -STEP; x <= W + STEP; x += STEP) {
+          var y = w.cy * H
+            + w.a1 * Math.sin(w.f1 * x + phases[idx])
+            + w.a2 * Math.sin(w.f2 * x - phases[idx] * 0.6 + w.o2);
+          pts.push([x, y]);
+        }
+        paths[idx].setAttribute('d', lineGen(pts));
+      }
+      requestAnimationFrame(render);
+    }
+
+    render();
+  }
+})();
+</script>
