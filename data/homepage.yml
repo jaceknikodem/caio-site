@@ -1,12 +1,12 @@
 hero:
   title: "Jack Nikodem"
-  subtitle: "AI demos aren't the problem. The lack of strategy is."
+  subtitle: "Strategy without shipping is theatre. I embed until your team can build without me."
   image: "/images/jack.png"
   badges:
     - icon: "🚀"
       text: "20+ AI products shipped to 1B+ users"
     - icon: "💰"
-      text: "$XXXM revenue impact at DeepMind/YouTube"
+      text: "Millions in revenue impact at DeepMind/YouTube"
     - icon: "🌍"
       text: "Built AI teams across US & Asia"
     - icon: "🌱"
@@ -33,7 +33,7 @@ sections:
 
 cta_cards:
   - title: "The Fractional CAIO"
-    description: "I help companies go through the AI transformation. Strategic clarity and products that ship value in <12 months."
+    description: "I embed with leadership teams to figure out where AI actually moves the business — then I help ship it. The engagement ends when your team owns it."
     link: "/the-fractional-caio/"
     link_text: "View services"
     image: "/images/ping.gif" # Placeholder/abstract
