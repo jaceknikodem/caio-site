@@ -33,12 +33,12 @@ sections:
 
 cta_cards:
   - title: "The Fractional CAIO"
-    description: "I embed with leadership teams to figure out where AI actually moves the business — then I help ship it. The engagement ends when your team owns it."
+    description: "I embed with leadership teams to figure out where AI actually moves the business — then I help ship it."
     link: "/the-fractional-caio/"
     link_text: "View services"
     image: "/images/ping.gif" # Placeholder/abstract
 
-  - title: "About Me"
+  - title: "About me"
     description: "Read about my background and experience."
     link: "/about_me/"
     link_text: "Read bio"
@@ -50,8 +50,14 @@ cta_cards:
     link_text: "View testimonials"
     image: "/images/ping.gif" # Placeholder
 
-  - title: "Case Studies"
-    description: "Five anonymised client engagements — fintech, adtech, mobile, enterprise. Real outcomes, no fluff."
+  - title: "Case studies"
+    description: "Anonymised client engagements — fintech, adtech, mobile, enterprise."
     link: "/case-studies/"
     link_text: "View case studies"
+    image: "/images/ping.gif" # Placeholder
+
+  - title: "In conversation with"
+    description: "Conversations on Applied AI and how it changes industries."
+    link: "/writing/"
+    link_text: "Read articles"
     image: "/images/ping.gif" # Placeholder
