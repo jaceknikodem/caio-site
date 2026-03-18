@@ -1,6 +1,5 @@
 ---
 title: "The Agent Virus"
-date: 2025-09-15
 topic: "Security"
 guest: "Andrea Michi"
 guest_role: "Co-founder & CTO, depthfirst"

@@ -1,6 +1,5 @@
 ---
 title: "Your AI Agent Has a Trust Problem. Technology Won't Fix It."
-date: 2025-12-01
 topic: "Product & Trust"
 guest: "Eric Chang"
 guest_role: "Former VP Research, Microsoft Research Asia"

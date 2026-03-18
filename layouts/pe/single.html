@@ -4,18 +4,18 @@
 
 {{ define "main" }}
 <style>
-    .wr-list-wrapper {
+    .pe-wrapper {
         max-width: var(--site-max-width);
         margin: 0 auto;
         padding: 3rem 1.5rem;
     }
 
-    .wr-list-intro {
+    .pe-intro {
         max-width: 640px;
         margin-bottom: 3rem;
     }
 
-    .wr-list-intro h1 {
+    .pe-intro h1 {
         font-family: 'Playfair Display', serif;
         font-size: 2.5rem;
         font-weight: 800;
@@ -24,32 +24,26 @@
         color: var(--default-text);
     }
 
-    .wr-list-intro p {
+    .pe-intro p {
         font-size: 1.1rem;
         color: var(--default-gray);
         line-height: 1.6;
         margin: 0;
     }
 
-    .wr-grid {
+    .pe-grid {
         display: grid;
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
 
     @media (min-width: 640px) {
-        .wr-grid {
+        .pe-grid {
             grid-template-columns: repeat(2, 1fr);
         }
     }
 
-    @media (min-width: 1000px) {
-        .wr-grid {
-            grid-template-columns: repeat(3, 1fr);
-        }
-    }
-
-    .wr-card {
+    .pe-card {
         background: #fff;
         border: 1px solid #eee;
         border-radius: 16px;
@@ -62,7 +56,7 @@
         color: inherit;
     }
 
-    .wr-card:hover {
+    .pe-card:hover {
         transform: translateY(-3px);
         box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
         border-color: var(--default-green);
@@ -70,7 +64,7 @@
         color: inherit;
     }
 
-    .wr-topic {
+    .pe-tag {
         display: inline-block;
         font-size: 0.75rem;
         font-weight: 600;
@@ -83,7 +77,7 @@
         width: fit-content;
     }
 
-    .wr-card-title {
+    .pe-card-title {
         font-family: 'Playfair Display', serif;
         font-size: 1.3rem;
         font-weight: 700;
@@ -92,20 +86,7 @@
         margin: 0;
     }
 
-    .wr-guest {
-        font-size: 0.95rem;
-        font-weight: 700;
-        color: var(--default-green);
-        line-height: 1.2;
-    }
-
-    .wr-guest-role {
-        font-size: 0.85rem;
-        color: var(--default-gray);
-        margin-top: 0.15rem;
-    }
-
-    .wr-summary {
+    .pe-summary {
         font-size: 0.95rem;
         color: var(--default-gray);
         line-height: 1.6;
@@ -113,38 +94,34 @@
         margin: 0;
     }
 
-    .wr-read-more {
+    .pe-read-more {
         font-size: 0.9rem;
         font-weight: 600;
         color: var(--default-text);
         margin-top: auto;
     }
 
-    .wr-card:hover .wr-read-more {
+    .pe-card:hover .pe-read-more {
         color: var(--default-green);
     }
 </style>
 
-<div class="wr-list-wrapper">
-    <div class="wr-list-intro">
+<div class="pe-wrapper">
+    <div class="pe-intro">
         <h1>{{ .Title }}</h1>
         <p>{{ .Description }}</p>
     </div>
 
-    <div class="wr-grid">
-        {{ range .Pages.ByParam "weight" }}
-        <a href="{{ .RelPermalink }}" class="wr-card">
-            <span class="wr-topic">{{ .Params.topic }}</span>
-            <h2 class="wr-card-title">{{ .Title }}</h2>
-            {{ if .Params.guest }}
-            <div>
-                <div class="wr-guest">{{ .Params.guest }}</div>
-                <div class="wr-guest-role">{{ .Params.guest_role }}</div>
-            </div>
-            {{ end }}
-            <p class="wr-summary">{{ .Params.summary }}</p>
-            <span class="wr-read-more">Read article &rarr;</span>
+    <div class="pe-grid">
+        {{ range sort (where site.RegularPages "Section" "writing") "Params.weight" }}
+        {{ if eq .Params.topic "PE & AI" }}
+        <a href="{{ .RelPermalink }}" class="pe-card">
+            <span class="pe-tag">Analysis</span>
+            <h2 class="pe-card-title">{{ .Title }}</h2>
+            <p class="pe-summary">{{ .Params.summary }}</p>
+            <span class="pe-read-more">Read analysis &rarr;</span>
         </a>
+        {{ end }}
         {{ end }}
     </div>
 </div>

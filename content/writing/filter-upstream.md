@@ -1,6 +1,5 @@
 ---
 title: "The Filter Upstream Changed. You'll Feel It in 18 Months."
-date: 2025-11-15
 topic: "Venture Capital"
 guest: "Tina Cheng"
 guest_role: "Partner, Cherubic Ventures"

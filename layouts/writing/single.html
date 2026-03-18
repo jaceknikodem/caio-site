@@ -181,7 +181,7 @@
 
     <div class="wr-meta">
         <span class="wr-topic-tag">{{ .Params.topic }}</span>
-        <span class="wr-guest-badge">{{ .Params.guest }}</span>
+        {{ if .Params.guest }}<span class="wr-guest-badge">{{ .Params.guest }}</span>{{ end }}
     </div>
 
     <h1 class="wr-single-title">{{ .Title }}</h1>

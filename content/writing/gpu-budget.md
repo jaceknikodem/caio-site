@@ -1,6 +1,5 @@
 ---
 title: "Your GPU Budget Is Not Your Ceiling"
-date: 2025-10-15
 topic: "AI Research & Talent"
 guest: "Hung Bui"
 guest_role: "Co-founder, VinAI (acq. by Qualcomm)"

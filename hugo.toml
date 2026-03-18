@@ -18,15 +18,6 @@ canonifyURLs = true
   disableJSON = false
   disableSVG = false
 
-[[menus.main]]
-  name = "Work"
-  url = "/case-studies/"
-  weight = 10
-
-[[menus.main]]
-  name = "Writing"
-  url = "/writing/"
-  weight = 20
 
 [build]
   useResourceCache = true

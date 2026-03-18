@@ -56,8 +56,8 @@ cta_cards:
     link_text: "View case studies"
     image: "/images/ping.gif" # Placeholder
 
-  - title: "In conversation with"
-    description: "Conversations on Applied AI and how it changes industries."
+  - title: "Writing"
+    description: "Practitioner conversations and independent analysis on applied AI — what works in production, and what moves the multiple in PE-backed companies."
     link: "/writing/"
     link_text: "Read articles"
     image: "/images/ping.gif" # Placeholder

@@ -1,4 +1,4 @@
 ---
-title: "In Conversation With"
-description: "Conversations on Applied AI and how it changes industries."
+title: "Writing"
+description: "Practitioner conversations and independent analysis on applied AI — what works in production, and what moves the multiple in PE-backed companies."
 ---

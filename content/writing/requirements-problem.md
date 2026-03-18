@@ -1,6 +1,5 @@
 ---
 title: "The Requirements Problem"
-date: 2025-10-01
 topic: "Enterprise AI"
 guest: "Leszek Bartowski"
 guest_role: "Former Palantir FDE, ~10 years"

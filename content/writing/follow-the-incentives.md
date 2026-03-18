@@ -1,6 +1,5 @@
 ---
 title: "Follow the Incentives, Not the Pitch Deck"
-date: 2025-11-01
 topic: "Venture Capital"
 guest: "Anonymous"
 guest_role: "Partner, top-tier venture fund"
