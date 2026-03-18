@@ -50,9 +50,8 @@ cta_cards:
     link_text: "View testimonials"
     image: "/images/ping.gif" # Placeholder
 
-  - title: "Writing"
-    description: "Over 700 articles on ML leadership. Insights on building AI teams and shipping products."
-    link: "https://jacknikodem.substack.com"
-    link_text: "Read substack"
-    external: true
-    image: "/images/sundar.jpeg" # Placeholder
+  - title: "Case Studies"
+    description: "Five anonymised client engagements — fintech, adtech, mobile, enterprise. Real outcomes, no fluff."
+    link: "/case-studies/"
+    link_text: "View case studies"
+    image: "/images/ping.gif" # Placeholder
