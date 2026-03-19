@@ -5,6 +5,7 @@ guest: "Hung Bui"
 guest_role: "Co-founder, VinAI (acq. by Qualcomm)"
 summary: "Hung Bui built a research lab in Hanoi that published at NeurIPS, ran a 7B model on a phone without internet, and sold to Qualcomm for nine figures — with Vietnamese undergraduates and a fraction of a frontier lab's compute budget."
 weight: 4
+preview: true
 ---
 
 The conventional wisdom: world-class AI requires world-class resources. Google-scale compute. Silicon Valley salaries. A PhD pipeline from Stanford or Tsinghua.

@@ -3,6 +3,7 @@ title: "Benesse: Two Bets, Two Playbooks"
 topic: "PE & AI"
 summary: "EQT bought Japan's largest education company for $2B. Two businesses, one company — each needs a different thesis. Where the real value creation lever is, and what the operating partner needs to execute."
 weight: 10
+preview: true
 ---
 
 EQT bought Benesse in 2023 for almost $2B — Japan's largest education company and, attached to it, one of Japan's largest nursing care operators.

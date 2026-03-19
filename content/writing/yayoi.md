@@ -4,6 +4,7 @@ date: 2025-12-10
 topic: "PE & AI"
 summary: "KKR is running the standard PE incumbent playbook on Japan's leading accounting software. This is where the standard playbook breaks — and what the operating partner needs to execute before the window closes."
 weight: 11
+preview: true
 ---
 
 Private equity has run the accounting software incumbent playbook before — MYOB in Australia, Visma in Scandinavia, Exact in the Netherlands. Buy the market leader, accelerate transformation, re-rate from stable-cash-flow to growth-company multiples. KKR is running the same thesis on Yayoi. But Japan is different — this is where the standard playbook needs adjusting.

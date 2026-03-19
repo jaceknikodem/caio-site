@@ -5,6 +5,7 @@ guest: "Vivek"
 guest_role: "Founder, Excarta (ex-DeepMind)"
 summary: "Your AI works and the company still fails. In traditional sectors — insurance, logistics, healthcare — technical superiority is not enough. The bottleneck is access."
 weight: 7
+preview: true
 ---
 
 Your AI works and the company still fails. It's a pattern common in "traditional" sectors — insurance, logistics, healthcare, energy. The hard part is not technical. It's the long sales cycle, the regulation, their lack of urgency, and the fact that your network includes no one who can get the buyer to move quicker.

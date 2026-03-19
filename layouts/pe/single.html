@@ -104,6 +104,26 @@
     .pe-card:hover .pe-read-more {
         color: var(--default-green);
     }
+
+    .pe-card-header {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .pe-preview {
+        display: inline-block;
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #92400e;
+        border: 1px dashed #d97706;
+        border-radius: 50px;
+        padding: 0.2rem 0.75rem;
+        width: fit-content;
+    }
 </style>
 
 <div class="pe-wrapper">
@@ -116,7 +136,10 @@
         {{ range sort (where site.RegularPages "Section" "writing") "Params.weight" }}
         {{ if eq .Params.topic "PE & AI" }}
         <a href="{{ .RelPermalink }}" class="pe-card">
-            <span class="pe-tag">Analysis</span>
+            <div class="pe-card-header">
+                <span class="pe-tag">Analysis</span>
+                {{ if .Params.preview }}<span class="pe-preview">Preview</span>{{ end }}
+            </div>
             <h2 class="pe-card-title">{{ .Title }}</h2>
             <p class="pe-summary">{{ .Params.summary }}</p>
             <span class="pe-read-more">Read analysis &rarr;</span>

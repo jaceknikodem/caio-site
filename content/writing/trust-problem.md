@@ -5,6 +5,7 @@ guest: "Eric Chang"
 guest_role: "Former VP Research, Microsoft Research Asia"
 summary: "A CEO of an Asian digital bank built AI agents that work. Customers don't use them. Better AI doesn't fix the trust gap — you're solving a relationship problem that predates AI by a decade."
 weight: 1
+preview: true
 ---
 
 A CEO of an Asian digital bank is building AI agents that interact with customers. Personalized, proactive, useful. The technology works but customers don't use it yet.

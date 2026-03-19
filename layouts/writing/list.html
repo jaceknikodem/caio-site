@@ -123,6 +123,26 @@
     .wr-card:hover .wr-read-more {
         color: var(--default-green);
     }
+
+    .wr-card-header {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .wr-preview {
+        display: inline-block;
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #92400e;
+        border: 1px dashed #d97706;
+        border-radius: 50px;
+        padding: 0.2rem 0.75rem;
+        width: fit-content;
+    }
 </style>
 
 <div class="wr-list-wrapper">
@@ -134,7 +154,10 @@
     <div class="wr-grid">
         {{ range .Pages.ByParam "weight" }}
         <a href="{{ .RelPermalink }}" class="wr-card">
-            <span class="wr-topic">{{ .Params.topic }}</span>
+            <div class="wr-card-header">
+                <span class="wr-topic">{{ .Params.topic }}</span>
+                {{ if .Params.preview }}<span class="wr-preview">Preview</span>{{ end }}
+            </div>
             <h2 class="wr-card-title">{{ .Title }}</h2>
             {{ if .Params.guest }}
             <div>
