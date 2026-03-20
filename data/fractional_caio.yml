@@ -1,7 +1,7 @@
 hero:
   title: "The Fractional CAIO"
   subtitle: "AI as a lasting organizational muscle."
-  description: "We work with **investment funds** and their **portfolio companies** in the **unicorn league** – valued above $200M – aiming to accelerate their AI capabilities to transform their business, focusing on SaaS providers, fintech, e-commerce businesses, and consumer-facing products. \n\nIt’s not a one‑off consultancy. We offer strategic clarity and deploy AI products that ship value in <12 months. This isn’t AI as a service – it’s AI as a lasting organizational muscle. **We train your team to solve future problems — and design every engagement so you won't need us again**. No AI theatre, no outsourcing, no vendor lock-in. Instead of demos that don’t go anywhere or internal teams without direction, we **de-risk AI investments, shorten time-to-impact, and build capabilities**, so you don’t fall behind competitors. \n\nWe help you move from ideas to impact, fast, tackling **high-impact problems**, such as: personalization (includes recommendations, rankings, promotions), decision intelligence (lead scoring, forecasting, pricing), trust and risk (includes fraud, credit, dispute automation) and workflow automation (support, docs, transactions, sales, operations)."
+  description: "We work with **PE-backed SaaS and fintech companies** valued above **$1B** in APAC that are stuck in AI pilots — spending on experiments but shipping nothing — and help them build the internal capability to get AI to actually work.\n\nIt’s not a one‑off consultancy. We offer strategic clarity and deploy AI products that ship value in <12 months. This isn’t AI as a service – it’s AI as a lasting organizational muscle. **We train your team to solve future problems — and design every engagement so you won’t need us again**. No AI theatre, no outsourcing, no vendor lock-in. Instead of demos that don’t go anywhere or internal teams without direction, we **de-risk AI investments, shorten time-to-impact, and build capabilities**, so you don’t fall behind competitors. \n\nWe help you move from ideas to impact, fast, tackling **high-impact problems**, such as: personalization (includes recommendations, rankings, promotions), decision intelligence (lead scoring, forecasting, pricing), trust and risk (includes fraud, credit, dispute automation) and workflow automation (support, docs, transactions, sales, operations)."
 
 stats:
   - value: "1B+"
@@ -23,6 +23,6 @@ value_prop:
     - title: "Full altitude range"
       description: "Board-level strategy to hands-on technical work in the same engagement."
     - title: "Regional edge"
-      description: "Deep APAC relationships; proven at attracting and developing scarce ML talent."
+      description: "Most AI consultants are calibrated for Western tech environments. APAC companies work differently — and I know how to get results in those conditions specifically."
     - title: "Designed to end"
       description: "The engagement has a built-in sunset. Your team owns the roadmap and capability — no ongoing dependency."

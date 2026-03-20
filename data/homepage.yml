@@ -33,7 +33,7 @@ sections:
 
 cta_cards:
   - title: "The Fractional CAIO"
-    description: "I embed with leadership teams to figure out where AI actually moves the business — then I help ship it."
+    description: "I help PE-backed SaaS and fintech companies stuck in AI pilots — spending but not shipping — build the internal capability to get AI to actually work."
     link: "/the-fractional-caio/"
     link_text: "View services"
     image: "/images/ping.gif" # Placeholder/abstract
