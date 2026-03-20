@@ -1,6 +1,5 @@
 ---
 title: "Macromill: Fragile Data Moat and the Case for Self-Disruption"
-date: 2026-03-20
 topic: "PE & AI"
 summary: "CVC needs AI-powered automation to justify a tech multiple, while AI is the primary threat to the asset they're trying to re-rate. The way out is to disrupt the panel business before someone else does."
 weight: 9
