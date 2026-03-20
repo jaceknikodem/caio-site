@@ -46,6 +46,12 @@
         padding: 0.2rem 0.75rem;
     }
 
+    .wr-written {
+        font-size: 0.85rem;
+        color: var(--default-gray);
+        font-style: italic;
+    }
+
     .wr-guest-badge {
         font-size: 0.85rem;
         font-weight: 700;
@@ -123,6 +129,31 @@
         text-decoration: underline;
     }
 
+    .wr-content .footnotes {
+        border-top: 1px solid #eee;
+        margin-top: 3rem;
+        padding-top: 1.5rem;
+    }
+
+    .wr-content .footnotes ol {
+        font-size: 0.85rem;
+        color: var(--default-gray);
+        line-height: 1.7;
+        padding-left: 1.25rem;
+    }
+
+    .wr-content .footnotes li {
+        font-size: 0.85rem;
+        color: var(--default-gray);
+        margin-bottom: 0.5rem;
+    }
+
+    .wr-content sup {
+        font-size: 0.75em;
+        line-height: 0;
+        vertical-align: super;
+    }
+
     .wr-nav {
         display: flex;
         justify-content: space-between;
@@ -181,7 +212,8 @@
 
     <div class="wr-meta">
         <span class="wr-topic-tag">{{ .Params.topic }}</span>
-        {{ if .Params.guest }}<span class="wr-guest-badge">{{ .Params.guest }}</span>{{ end }}
+        {{ if .Params.guest }}<span class="wr-guest-badge">With {{ .Params.guest }}</span>{{ end }}
+        {{ if .Params.written }}<span class="wr-written">Written {{ .Params.written }}</span>{{ end }}
     </div>
 
     <h1 class="wr-single-title">{{ .Title }}</h1>

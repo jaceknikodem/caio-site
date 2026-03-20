@@ -4,6 +4,7 @@ topic: "PE & AI"
 summary: "CVC needs AI-powered automation to justify a tech multiple, while AI is the primary threat to the asset they're trying to re-rate. The way out is to disrupt the panel business before someone else does."
 weight: 9
 preview: true
+written: "19th March 2026"
 ---
 
 Bain took Macromill private in 2014, IPO'd in three years on a global-scale thesis, then shed the bolt-on that didn't fit. CVC took it private again last year — 2024-vintage, 5+ year hold, Japan-focused.

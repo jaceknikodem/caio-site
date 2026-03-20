@@ -5,6 +5,7 @@ guest: "Andrea Michi"
 guest_role: "Co-founder & CTO, depthfirst"
 summary: "10x coding output is also a 10x attack surface. The quality of code reviews is going dramatically down — and machines don't get suspicious."
 weight: 6
+written: "1st March 2026"
 ---
 
 Social engineering used to target people. Now it targets AI agents, and machines don't get suspicious.

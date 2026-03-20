@@ -5,6 +5,7 @@ guest: "Nick Budden"
 guest_role: "Serial founder, Asia-based"
 summary: "Designers are skipping Figma entirely, vibe-coding directly to prototypes. The bottleneck isn't tooling — it's implicit knowledge that no agent can read."
 weight: 9
+written: "20th December 2025"
 ---
 
 Not by another design tool — by designers who code. Nick Budden, a design-oriented entrepreneur who's built multiple startups from Asia, sees dogma cracking at the fringes: "*Designers are skipping Figma entirely. They're vibe-coding directly to working prototypes*."

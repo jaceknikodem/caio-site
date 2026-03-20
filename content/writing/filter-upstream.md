@@ -5,6 +5,7 @@ guest: "Tina Cheng"
 guest_role: "Partner, Cherubic Ventures"
 summary: "Seed investors are deprioritizing pure software companies. The filter just changed — and most growth-stage investors haven't noticed yet."
 weight: 2
+written: "2nd March 2025"
 ---
 
 Seed investors are the intake valve of the venture stack. What they select today is what shows up in your growth portfolio, your M&A pipeline, and your competitive landscape in two to three years. The filter just changed, and many growth-stage investors and operating companies haven't noticed yet.

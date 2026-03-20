@@ -99,6 +99,11 @@
         line-height: 1.2;
     }
 
+    .wr-guest-with {
+        color: var(--default-gray);
+        font-weight: 400;
+    }
+
     .wr-guest-role {
         font-size: 0.85rem;
         color: var(--default-gray);
@@ -161,7 +166,7 @@
             <h2 class="wr-card-title">{{ .Title }}</h2>
             {{ if .Params.guest }}
             <div>
-                <div class="wr-guest">{{ .Params.guest }}</div>
+                <div class="wr-guest"><span class="wr-guest-with">with </span>{{ .Params.guest }}</div>
                 <div class="wr-guest-role">{{ .Params.guest_role }}</div>
             </div>
             {{ end }}

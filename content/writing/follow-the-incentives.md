@@ -1,10 +1,10 @@
 ---
 title: "Follow the Incentives, Not the Pitch Deck"
 topic: "Venture Capital"
-guest: "Anonymous"
 guest_role: "Partner, top-tier venture fund"
 summary: "VCs have access to non-public financials, board-level strategy, and real-time metrics across dozens of companies. They often still make consensus bets. Most founders never trace the incentive chain far enough."
 weight: 3
+written: "20th February 2026"
 ---
 
 VCs have access to non-public financials, board-level strategy, and real-time metrics across dozens of companies. They should be the best-informed investors in the market. They often still make consensus bets, following their peers into oversubscribed rounds.

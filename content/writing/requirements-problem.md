@@ -5,6 +5,7 @@ guest: "Leszek Bartowski"
 guest_role: "Former Palantir FDE, ~10 years"
 summary: "Every major AI lab now hires forward deployment engineers. Most are building the role wrong — optimizing for implementation speed when the bottleneck is upstream."
 weight: 5
+written: "24th February 2026"
 ---
 
 Every major AI lab now hires forward deployment engineers. Most of them are building the role wrong — optimizing for implementation speed when the actual bottleneck is upstream.

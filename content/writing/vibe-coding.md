@@ -5,6 +5,7 @@ guest: "Marek Barwinski"
 guest_role: "Executive Director, Generate:Biomedicines"
 summary: "Vibe-coding made writing software trivially fast. But turning code into production-grade systems is still slow. The bottleneck moved; the org chart didn't."
 weight: 8
+written: "22nd December 2025"
 ---
 
 A lab scientist at a biotech needed something simple: a three-class image classifier behind an API. An engineering manager skillfully prompted an LLM. Fifteen minutes later, it was a working service, including training code and inference endpoints. Also performance tweaks for both Mac and CUDA.
