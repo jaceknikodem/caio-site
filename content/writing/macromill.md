@@ -9,6 +9,22 @@ written: "19th March 2026"
 
 Bain took Macromill private in 2014, IPO'd in three years on a global-scale thesis, then shed the bolt-on that didn't fit. CVC took it private again last year — 2024-vintage, 5+ year hold, Japan-focused.
 
+---
+
+**The net net.** CVC bought at a services multiple and needs a tech multiple to exit. The path is self-disruption: build synthetic panel capability before a competitor does, use Macromill's real-panel data as the calibration layer, and move up the value chain to insight synthesis — where the premium actually sits. The alternative is watching always-on panel revenue become an occasional calibration input.
+
+**The strategy.**
+- Build your own synthetic panel. CVC owns the data to fine-tune Japanese LLMs, and the channel to generate more. Score synthetic against real responses; run targeted real-data collection when alignment drops.
+- Win on panel quality — vetting, incentives, hygiene. This is the chronic weakness in primary research and a defensible differentiator for whoever solves it.
+- Move up the value chain. High value sits before and after the panel — in question design and insight synthesis. Both are ripe for AI.
+- Automate the full loop end to end once synthetic panels compound.
+
+**The risks.**
+- *The re-rate trap.* "Rebranding to data intelligence" is a narrative, not a moat. The analytics layer sits above data someone else can wire to an LLM. The real defensible asset is the collection mechanism and the feedback loop — not the intelligence on top.
+- *Stated vs. behavioural data.* Macromill captures stated preferences — inherently biased. Intage tracks actual purchases from retail scanners: harder to synthesize, more defensible. Macromill's panel risks becoming an occasional calibration input rather than an always-on asset.
+
+---
+
 CVC's playbook: better margins through automation, higher multiples by rebranding as a data intelligence platform. Buy at a services multiple, exit at a tech multiple.
 
 The irony is painful. CVC needs AI-powered automation to justify a tech multiple, while AI is the primary threat to the asset they're trying to re-rate.
@@ -38,13 +54,3 @@ The other move is up the value chain. High value sits before and after the panel
 The goal is not faster or cheaper surveys. It's better, more reliable insights. The premium comes from working with domain experts to decide what to automate vs. what needs human judgment.
 
 Synthetic panels compound this: automate the full loop end to end.
-
-## The lesson for the pattern
-
-The "rebrand to data intelligence" is a reason for re-rate, not a moat. The analytics sit above data someone else can wire to an LLM.
-
-The real asset is the collection mechanism under control and the feedback loop. The intelligence layer is the icing.
-
-The moat moves from "we have the data to train AI" to "we know where AI falls short and we fill the gap on demand".
-
-That's a defensible business.

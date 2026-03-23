@@ -9,6 +9,22 @@ written: "17th March 2026"
 
 Private equity has run the accounting software incumbent playbook before — MYOB in Australia, Visma in Scandinavia, Exact in the Netherlands. Buy the market leader, accelerate transformation, re-rate from stable-cash-flow to growth-company multiples. KKR is running the same thesis on Yayoi. But Japan is different — this is where the standard playbook needs adjusting.
 
+---
+
+**The net net.** Use AI to move Yayoi's accountant customers from data entry to advice — converting a shrinking desktop install base into a defensible, high-margin advisory platform. The distribution moat is real. But it's aging: the accountant referral network walks out the door with every accountant who retires, and most are in their 60s. The window to modernise it with AI before freee and Money Forward close the gap is the next two years.
+
+**The strategy.**
+- Automate bookkeeping first, advice second. Start with tasks done dozens of times a day — receipt OCR, transaction categorisation. At 18+ months, shift to cash flow forecasts, salary benchmarks, advisory products that accountants currently can't afford to deliver.
+- Use the accountant network as a product lab. PMs embedded with accountants watching real workflows generate better automation decisions than usage data alone.
+- Run cloud and AI in parallel. Instrument the desktop now; build AI capability from existing cloud data. There is no time for sequential execution on a PE timeline.
+- Don't fight for the SMB self-serve segment — it's getting commoditised. Double down on the accountant-served mid-market.
+
+**The risks.**
+- *Silent non-compliance.* In Japan, "hai" doesn't mean yes. Middle management will nod and continue operating exactly as before. This doesn't appear in board reporting — it shows up in results twelve months later. The lever: performance-based compensation for the mid-layer, with bonuses at least half of total comp. In a culture of seniority-based pay, this is the hardest move to make — and the one that matters most.
+- *Accuracy liability.* 90% precision is not good enough for tax compliance software. At 90%, a human has to double-check every output — which defeats the purpose of automation. The bar is 99%. Getting this wrong isn't a tech/UX problem; it's a liability problem.
+
+---
+
 ## The setup
 
 For the last 12 months I've focused on what it takes to run an AI transformation inside a mid-market SaaS or fintech company in Asia. Not press releases, blogs, or investor pitches. What they should do, in the next 18–24 months, to get from at-risk to defensibly competitive.
@@ -16,20 +32,6 @@ For the last 12 months I've focused on what it takes to run an AI transformation
 This series is an answer in writing. Each piece looks at a PE-backed company facing the same bind: a strong but fragile market position and a fund that bought it believing more value than the market priced in.
 
 PE pulls many levers — financial engineering, roll-ups, cost reductions. I'm focusing on AI transformation: what AI unlocks to move the EBITDA multiple.
-
-## Why Japan, why now
-
-Japan pays premium prices and expects high quality. The population is declining and aging — that pressure is politically visible and replicable across Korea, Taiwan, and China.
-
-But what matters for AI transformation is how Japan actually operates. LINE dominates messaging. Yahoo is still relevant. Restaurant reservations are made by phone. You can't pay with Amex. People visit physical shops to examine products before buying. Despite global platforms being available, local brands dominate: 7-Eleven, Rakuten, Sony. There is virtually no English.
-
-Work has its rules and rituals, too. Hierarchical, relationship-driven, lifetime employment as the default. People are hired to a company, not a role. Firing and layoffs are not an option.
-
-*And no one says "no" — they say "hai" and move on, which is its own "no".*
-
-For any PE owner running a transformation: this is the single most operationally dangerous dynamic. Silent non-compliance kills timelines. It doesn't show up in board reporting. It shows up in the results, twelve months later.
-
-That shapes what works here. Anything that requires people to publicly admit failure, switch vendors overnight, or restructure roles will struggle. What wins is technology that layers onto existing workflows and culture, with visible, specific quality gains.
 
 ## Is the moat real or rented?
 
@@ -89,10 +91,16 @@ With the right person at the top, the challenge lives in the middle — the mana
 
 The CEO's actual job for the next two years isn't the AI strategy. It's the organisational rewiring that makes the AI strategy executable.
 
-## The lesson for the pattern
+## Appendix: Why Japan
 
-Any software incumbent with a large installed base is sitting on a data asset — but most don't collect or use it competitively.
+Japan pays premium prices and expects high quality. The population is declining and aging — that pressure is politically visible and replicable across Korea, Taiwan, and China.
 
-Most AI programmes fail quietly, by inaction. In Japan this is harder — you won't hear "no." They will simply continue to operate exactly as before.
+But what matters for AI transformation is how Japan actually operates. LINE dominates messaging. Yahoo is still relevant. Restaurant reservations are made by phone. You can't pay with Amex. People visit physical shops to examine products before buying. Despite global platforms being available, local brands dominate: 7-Eleven, Rakuten, Sony. There is virtually no English.
 
-The lever: performance-based compensation for the mid-layer, with bonuses at least half of total comp. Incentives change behaviour where mandates don't. In Japan, where seniority-based comp is culturally entrenched, this is the hardest move to make — and the one that matters most.
+Work has its rules and rituals, too. Hierarchical, relationship-driven, lifetime employment as the default. People are hired to a company, not a role. Firing and layoffs are not an option.
+
+*And no one says "no" — they say "hai" and move on, which is its own "no".*
+
+For any PE owner running a transformation: this is the single most operationally dangerous dynamic. Silent non-compliance kills timelines. It doesn't show up in board reporting. It shows up in the results, twelve months later.
+
+That shapes what works here. Anything that requires people to publicly admit failure, switch vendors overnight, or restructure roles will struggle. What wins is technology that layers onto existing workflows and culture, with visible, specific quality gains.
