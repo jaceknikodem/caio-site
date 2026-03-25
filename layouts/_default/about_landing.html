@@ -142,6 +142,93 @@
         margin: 0;
     }
 
+    /* Engagement Section (shared) */
+    .engagement-section {
+        padding: 4rem 1.5rem;
+    }
+
+    .engagement-container {
+        max-width: var(--site-max-width);
+        margin: 0 auto;
+    }
+
+    .engagement-section h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--default-green);
+        margin-bottom: 2.5rem;
+        text-align: center;
+    }
+
+    .engagement-section {
+        background: #fff;
+        border-top: 1px solid #eaeaea;
+    }
+
+    .phases-flow {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .phase-card {
+        padding: 2.5rem;
+        border: 1px solid #eaeaea;
+        background: #fcfcfc;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .phase-label {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: var(--default-text);
+    }
+
+    .phase-duration {
+        font-size: 0.85rem;
+        color: var(--default-gray);
+        letter-spacing: 0.04em;
+    }
+
+    .phase-desc {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: var(--default-text);
+        margin-top: 0.5rem;
+    }
+
+    .phase-outcome {
+        font-size: 0.95rem;
+        color: var(--default-green);
+        font-weight: 600;
+        margin-top: auto;
+        padding-top: 1rem;
+        border-top: 1px solid #eaeaea;
+    }
+
+    .phase-arrow {
+        font-size: 2rem;
+        color: var(--default-gray);
+        text-align: center;
+        flex-shrink: 0;
+    }
+
+    @media (max-width: 900px) {
+        .phases-flow {
+            grid-template-columns: 1fr;
+        }
+
+        .phase-arrow {
+            transform: rotate(90deg);
+            text-align: center;
+        }
+
+    }
+
     /* Services */
     .services-footer {
         background: #f4f4f4;
@@ -246,6 +333,28 @@
                     <p>{{ .description | markdownify }}</p>
                 </div>
                 {{ end }}
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="engagement-section">
+        <div class="engagement-container">
+            <h2>How it works</h2>
+            <div class="phases-flow">
+                <div class="phase-card">
+                    <div class="phase-label">Strategy</div>
+                    <div class="phase-duration">3–8 weeks · embedded</div>
+                    <div class="phase-desc">Diagnose the problem. Align leadership. Walk away with a plan.</div>
+                    <div class="phase-outcome">Board-ready decision.</div>
+                </div>
+                <div class="phase-arrow">→</div>
+                <div class="phase-card">
+                    <div class="phase-label">Implementation</div>
+                    <div class="phase-duration">9 months · fractional</div>
+                    <div class="phase-desc">Your team ships it, with weekly guidance and course-corrections.</div>
+                    <div class="phase-outcome">Your team owns the capability.</div>
+                </div>
             </div>
         </div>
     </section>
