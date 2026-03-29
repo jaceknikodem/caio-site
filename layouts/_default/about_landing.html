@@ -161,8 +161,7 @@
     }
 
     .engagement-section {
-        background: #fff;
-        border-top: 1px solid #eaeaea;
+        background: var(--default-light);
     }
 
     .phases-flow {
@@ -290,6 +289,248 @@
             border-bottom: none;
         }
     }
+
+    /* ── Pain Points ── */
+    .pain-section {
+        padding: 3rem 1.5rem;
+        background: var(--default-text);
+        color: #fff;
+    }
+    .pain-container {
+        max-width: var(--site-max-width);
+        margin: 0 auto;
+    }
+    .pain-header {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .pain-eyebrow {
+        font-size: 0.8rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: rgba(255,255,255,0.5);
+        margin-bottom: 0.5rem;
+    }
+    .pain-header h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #fff;
+        margin: 0;
+    }
+    .pain-quotes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .pain-quote {
+        background: rgba(255,255,255,0.05);
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: 12px;
+        padding: 1.75rem;
+    }
+    .pain-quote-mark {
+        font-size: 3rem;
+        line-height: 0.8;
+        color: rgba(255,255,255,0.2);
+        font-family: 'Playfair Display', serif;
+        margin-bottom: 0.75rem;
+    }
+    .pain-quote p {
+        font-size: 0.95rem;
+        line-height: 1.65;
+        color: rgba(255,255,255,0.8);
+        margin: 0;
+        font-style: italic;
+    }
+    .pain-footer-note {
+        text-align: center;
+        font-size: 1rem;
+        color: rgba(255,255,255,0.55);
+        max-width: 640px;
+        margin: 0 auto;
+    }
+
+    /* ── What You Get ── */
+    .wyg-section {
+        padding: 3rem 1.5rem;
+        background: var(--default-light);
+    }
+    .wyg-container {
+        max-width: var(--site-max-width);
+        margin: 0 auto;
+    }
+    .wyg-container > h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--default-green);
+        text-align: center;
+        margin: 0 0 2rem 0;
+    }
+    .wyg-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+    .wyg-card {
+        background: #fff;
+        border: 1px solid #eaeaea;
+        border-radius: 12px;
+        padding: 2rem;
+        transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+    .wyg-card:hover {
+        box-shadow: 0 10px 30px rgba(0,0,0,0.07);
+        border-color: var(--default-green);
+    }
+    .wyg-card h3 {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: var(--default-text);
+        margin: 0 0 0.75rem 0;
+    }
+    .wyg-card p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        color: #555;
+        margin: 0;
+    }
+
+    /* ── Comparison ── */
+    .compare-section {
+        padding: 3rem 1.5rem;
+        background: #fff;
+    }
+    .compare-container {
+        max-width: var(--site-max-width);
+        margin: 0 auto;
+    }
+    .compare-headline {
+        font-size: 1.25rem;
+        font-weight: 700;
+        text-align: center;
+        color: var(--default-text);
+        max-width: 700px;
+        margin: 0 auto 2rem;
+        line-height: 1.4;
+    }
+    .compare-wrap {
+        overflow-x: auto;
+        border-radius: 12px;
+        border: 1px solid #e0e0e0;
+        background: #fff;
+    }
+    .compare-tbl {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 640px;
+    }
+    .compare-tbl thead tr {
+        background: var(--default-text);
+    }
+    .compare-tbl thead th {
+        padding: 1rem 1.25rem;
+        font-size: 0.88rem;
+        font-weight: 600;
+        text-align: left;
+        color: #fff;
+    }
+    .compare-tbl thead th.th-caio {
+        background: var(--default-green);
+        font-weight: 700;
+    }
+    .compare-tbl thead th.th-empty {
+        color: rgba(255,255,255,0.45);
+        font-size: 0.75rem;
+    }
+    .compare-tbl tbody tr {
+        border-top: 1px solid #f0f0f0;
+    }
+    .compare-tbl tbody tr:hover {
+        background: #fafafa;
+    }
+    .compare-tbl td {
+        padding: 0.9rem 1.25rem;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        vertical-align: top;
+    }
+    .compare-tbl td.td-attr {
+        font-weight: 700;
+        color: var(--default-text);
+        font-size: 0.85rem;
+        white-space: nowrap;
+    }
+    .compare-tbl td.td-caio {
+        background: rgba(0,77,61,0.05);
+        color: var(--default-text);
+        font-weight: 500;
+        border-left: 2px solid var(--default-green);
+    }
+    .compare-tbl td.td-other {
+        color: #777;
+    }
+
+    /* ── Testimonials (inline) ── */
+    .testi-section {
+        padding: 3rem 1.5rem;
+        background: var(--default-light);
+    }
+    .testi-container {
+        max-width: var(--site-max-width);
+        margin: 0 auto;
+    }
+    .testi-container > h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--default-green);
+        text-align: center;
+        margin: 0 0 2rem 0;
+    }
+    .testi-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+        margin-bottom: 1.75rem;
+    }
+    .testi-card {
+        background: var(--default-light);
+        border: 1px solid #eaeaea;
+        border-radius: 12px;
+        padding: 2rem;
+    }
+    .testi-text {
+        font-size: 1rem;
+        line-height: 1.7;
+        color: var(--default-text);
+        font-style: italic;
+        margin: 0 0 1.25rem 0;
+    }
+    .testi-role {
+        font-size: 0.85rem;
+        color: var(--default-gray);
+        font-weight: 600;
+    }
+    .testi-more {
+        text-align: center;
+    }
+    .testi-more a {
+        color: var(--default-green);
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+    .testi-more a:hover {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 900px) {
+        .pain-quotes,
+        .wyg-grid,
+        .testi-grid {
+            grid-template-columns: 1fr;
+        }
+    }
 </style>
 
 <div class="caio-wrapper">
@@ -317,6 +558,40 @@
                 <p>{{ .label }}</p>
             </div>
             {{ end }}
+        </div>
+    </section>
+
+    <!-- Pain Points -->
+    <section class="pain-section">
+        <div class="pain-container">
+            <div class="pain-header">
+                <div class="pain-eyebrow">{{ .pain_points.subtitle }}</div>
+                <h2>{{ .pain_points.title }}</h2>
+            </div>
+            <div class="pain-quotes">
+                {{ range .pain_points.quotes }}
+                <div class="pain-quote">
+                    <div class="pain-quote-mark">"</div>
+                    <p>{{ . }}</p>
+                </div>
+                {{ end }}
+            </div>
+            <p class="pain-footer-note">CEOs already know AI matters — but many still hesitate. And they're falling behind faster-moving peers.</p>
+        </div>
+    </section>
+
+    <!-- What You Get -->
+    <section class="wyg-section">
+        <div class="wyg-container">
+            <h2>{{ .what_you_get.title }}</h2>
+            <div class="wyg-grid">
+                {{ range .what_you_get.items }}
+                <div class="wyg-card">
+                    <h3>{{ .title }}</h3>
+                    <p>{{ .description }}</p>
+                </div>
+                {{ end }}
+            </div>
         </div>
     </section>
 
@@ -356,6 +631,51 @@
                     <div class="phase-outcome">Your team owns the capability.</div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Comparison -->
+    <section class="compare-section">
+        <div class="compare-container">
+            <p class="compare-headline">{{ .comparison.title }}</p>
+            <div class="compare-wrap">
+                <table class="compare-tbl">
+                    <thead>
+                        <tr>
+                            <th class="th-empty"></th>
+                            <th class="th-caio">The Fractional CAIO</th>
+                            <th>Big consulting firms</th>
+                            <th>Independent strategists</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{ range .comparison.rows }}
+                        <tr>
+                            <td class="td-attr">{{ .attribute }}</td>
+                            <td class="td-caio">{{ .caio }}</td>
+                            <td class="td-other">{{ .big_firms }}</td>
+                            <td class="td-other">{{ .independents }}</td>
+                        </tr>
+                        {{ end }}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testi-section">
+        <div class="testi-container">
+            <h2>Trusted by leaders</h2>
+            <div class="testi-grid">
+                {{ range .testimonials_inline }}
+                <div class="testi-card">
+                    <p class="testi-text">"{{ .text }}"</p>
+                    <div class="testi-role">— {{ .role }}</div>
+                </div>
+                {{ end }}
+            </div>
+            <div class="testi-more"><a href="/testimonials/">Read all testimonials →</a></div>
         </div>
     </section>
 

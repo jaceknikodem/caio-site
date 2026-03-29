@@ -26,3 +26,47 @@ value_prop:
       description: "Most AI consultants are calibrated for Western tech environments. APAC companies work differently — and I know how to get results in those conditions specifically."
     - title: "Designed to end"
       description: "The engagement has a built-in sunset. Your team owns the roadmap and capability — no ongoing dependency."
+
+pain_points:
+  subtitle: "AI failures aren't unique. They're often predictable and preventable."
+  title: "Does this sound familiar?"
+  quotes:
+    - "I wish we'd understood how to recruit for AI more effectively. Even after hiring the AI talent, we struggled to figure out the best use of their skills — AI researchers felt underutilized."
+    - "The AI people often felt frustrated because the product team didn't know what AI could achieve, and the ML engineers didn't always understand the product needs."
+    - "What we were really missing was someone with experience in building and leading an AI team."
+
+what_you_get:
+  title: "What you get"
+  items:
+    - title: "Actionable clarity"
+      description: "The C-suite walks away with a focused strategy for the next 12–24 months, aligned leadership, and a clear path that avoids 7-figure wasted spend, bad hires, and empty demos."
+    - title: "High-impact problems only"
+      description: "We focus on problems that increase the bottom line, not nice-to-haves. No AI theatre."
+    - title: "Internal AI capability"
+      description: "We help companies build a lasting organizational muscle — so they solve future problems without our support."
+
+comparison:
+  title: "Big firms give you slide decks. Independent strategists give you brainstorms. We build you a great AI team that lands remarkable products and increases revenue."
+  rows:
+    - attribute: "Deliverables"
+      caio: "Strategy roadmap, internal team training, live feature launch"
+      big_firms: "Slide decks, benchmarks, target state models"
+      independents: "Advisory calls, docs, and loose frameworks"
+    - attribute: "Client outcomes"
+      caio: "Lasting internal AI capability, strategic clarity, revenue impact"
+      big_firms: "Organizational alignment (sometimes), but slow to execute"
+      independents: "Good insights if implemented"
+    - attribute: "Talent development"
+      caio: "Core focus — build client team, train internal leaders"
+      big_firms: "Rare"
+      independents: "Rare"
+    - attribute: "Tech stack"
+      caio: "Works with client's existing stack, no lock-in"
+      big_firms: "May push proprietary partnerships"
+      independents: "Depends"
+
+testimonials_inline:
+  - text: "Jack brought a structured approach to prioritizing AI projects. His energy, clarity, and directness helped us shift focus to higher-impact areas, make better use of existing resources, and adopt a hypothesis-driven process."
+    role: "CSO, Japanese fintech"
+  - text: "Jack's consulting helped us understand how the portfolio company approached AI — how it's built, how it operates, and where they need to adjust. His ability to explain complex ideas and influence the team made a real difference."
+    role: "Founder and Managing Partner, NYC-based investment fund"
