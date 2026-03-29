@@ -1,2 +1,105 @@
-<footer class="{{ .Site.Params.background_color_class | compare.Default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
+<footer role="contentinfo" style="background: #0d0d0d; color: rgba(255,255,255,0.85);">
+  <style>
+    .footer-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 2rem;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+
+    .footer-brand-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .footer-brand-desc {
+      font-size: 0.85rem;
+      line-height: 1.6;
+      color: rgba(255, 255, 255, 0.45);
+      margin: 0;
+      max-width: 240px;
+    }
+
+    .footer-col-label {
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.35);
+      margin: 0 0 1rem 0;
+      font-weight: 600;
+    }
+
+    .footer-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .footer-links a {
+      color: rgba(255, 255, 255, 0.65);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: #fff;
+    }
+
+    .footer-bottom {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1.25rem 1.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 0.78rem;
+      color: rgba(255, 255, 255, 0.3);
+    }
+
+    @media (max-width: 768px) {
+      .footer-inner {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 2.5rem 1.5rem 1.5rem;
+      }
+    }
+  </style>
+  <div class="footer-inner">
+    <div>
+      <a href="/" class="footer-brand-name">Jack Nikodem</a>
+      <p class="footer-brand-desc">Fractional CAIO — helping PE-backed SaaS and fintech companies ship AI that matters.
+      </p>
+    </div>
+    <nav>
+      <p class="footer-col-label">Pages</p>
+      <ul class="footer-links">
+        <li><a href="/the-fractional-caio/">Services</a></li>
+        <li><a href="/case-studies/">Case Studies</a></li>
+        <li><a href="/writing/">Writing</a></li>
+        <li><a href="/testimonials/">Testimonials</a></li>
+        <li><a href="/about_me/">About</a></li>
+      </ul>
+    </nav>
+    <div>
+      <p class="footer-col-label">Connect</p>
+      <ul class="footer-links">
+        <li><a href="https://www.linkedin.com/in/nikodem/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://jacknikodem.substack.com" target="_blank" rel="noopener">Substack</a></li>
+        <li><a href="mailto:jacknikodem@gmail.com">jacknikodem@gmail.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © {{ now.Year }} Jack Nikodem. All rights reserved.
+  </div>
 </footer>

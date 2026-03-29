@@ -65,6 +65,17 @@ comparison:
       big_firms: "May push proprietary partnerships"
       independents: "Depends"
 
+services:
+  title: "High-impact AI problems we focus on"
+  description: "We work on what moves the bottom line — not demos, not experiments."
+  list:
+    - "Personalization & recommendations"
+    - "Decision intelligence & lead scoring"
+    - "Trust, risk & fraud"
+    - "Pricing & forecasting"
+    - "Workflow automation"
+    - "Search & discovery"
+
 testimonials_inline:
   - text: "Jack brought a structured approach to prioritizing AI projects. His energy, clarity, and directness helped us shift focus to higher-impact areas, make better use of existing resources, and adopt a hypothesis-driven process."
     role: "CSO, Japanese fintech"

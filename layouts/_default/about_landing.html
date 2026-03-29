@@ -228,40 +228,6 @@
 
     }
 
-    /* Services */
-    .services-footer {
-        background: #f4f4f4;
-        padding: 3rem 1.5rem;
-        /* Reduced padding */
-        text-align: center;
-    }
-
-    .services-footer h2 {
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
-
-    .services-tags {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 0.8rem;
-        /* Reduced gap */
-        max-width: 800px;
-        margin: 0 auto;
-    }
-
-    .service-tag {
-        background: #fff;
-        padding: 0.6rem 1.2rem;
-        /* Compact tags */
-        border-radius: 50px;
-        font-weight: 600;
-        color: #333;
-        border: 1px solid #e0e0e0;
-        font-size: 0.9rem;
-    }
-
     /* Mobile */
     @media (max-width: 900px) {
 
@@ -676,18 +642,6 @@
                 {{ end }}
             </div>
             <div class="testi-more"><a href="/testimonials/">Read all testimonials →</a></div>
-        </div>
-    </section>
-
-    <!-- Services Footer -->
-    <section class="services-footer">
-        <h2>{{ .services.title }}</h2>
-        <p style="margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">{{
-            .services.description }}</p>
-        <div class="services-tags">
-            {{ range .services.list }}
-            <span class="service-tag">{{ . }}</span>
-            {{ end }}
         </div>
     </section>
 
