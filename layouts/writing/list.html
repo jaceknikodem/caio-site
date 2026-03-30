@@ -4,31 +4,45 @@
 
 {{ define "main" }}
 <style>
+    .wr-page-intro {
+        background: var(--default-light);
+        border-bottom: 1px solid #eaeaea;
+        padding: 4rem 1.5rem;
+        text-align: center;
+    }
+    .wr-page-intro-inner {
+        max-width: 680px;
+        margin: 0 auto;
+    }
+    .wr-page-eyebrow {
+        font-size: 0.7rem;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--default-green);
+        margin: 0 0 0.75rem 0;
+    }
+    .wr-page-intro h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 3rem;
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        line-height: 1.1;
+        margin: 0 0 0.85rem 0;
+        color: var(--default-text);
+    }
+    .wr-page-intro p {
+        font-size: 1.05rem;
+        color: var(--default-gray);
+        line-height: 1.65;
+        max-width: 560px;
+        margin: 0 auto;
+    }
+
     .wr-list-wrapper {
         max-width: var(--site-max-width);
         margin: 0 auto;
         padding: 3rem 1.5rem;
-    }
-
-    .wr-list-intro {
-        max-width: 640px;
-        margin-bottom: 3rem;
-    }
-
-    .wr-list-intro h1 {
-        font-family: 'Playfair Display', serif;
-        font-size: 2.5rem;
-        font-weight: 800;
-        margin: 0 0 0.75rem 0;
-        letter-spacing: -0.02em;
-        color: var(--default-text);
-    }
-
-    .wr-list-intro p {
-        font-size: 1.1rem;
-        color: var(--default-gray);
-        line-height: 1.6;
-        margin: 0;
     }
 
     .wr-grid {
@@ -150,12 +164,15 @@
     }
 </style>
 
-<div class="wr-list-wrapper">
-    <div class="wr-list-intro">
+<section class="wr-page-intro">
+    <div class="wr-page-intro-inner">
+        <p class="wr-page-eyebrow">Practitioner perspectives</p>
         <h1>{{ .Title }}</h1>
         <p>{{ .Description }}</p>
     </div>
+</section>
 
+<div class="wr-list-wrapper">
     <div class="wr-grid">
         {{ range .Pages.ByParam "weight" }}
         <a href="{{ .RelPermalink }}" class="wr-card">

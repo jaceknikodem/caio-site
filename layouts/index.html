@@ -109,25 +109,16 @@
   .hero-badges {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
-    /* Reduced */
+    gap: 0.45rem;
+    border-left: 2px solid var(--default-green);
+    padding-left: 1rem;
+    margin-top: 1.75rem;
   }
 
   .hero-badge {
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-    font-size: 1rem;
-    /* Reduced */
-    font-weight: 500;
-    color: var(--default-text);
-    background: rgba(255, 255, 255, 0.8);
-    padding: 0.6rem 1rem;
-    /* Compact padding */
-    border-radius: 50px;
-    width: fit-content;
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    font-size: 0.88rem;
+    color: #555;
+    line-height: 1.45;
   }
 
   .hero-image {
@@ -357,10 +348,7 @@
 
       <div class="hero-badges">
         {{ range .hero.badges }}
-        <div class="hero-badge">
-          <span>{{ .icon }}</span>
-          <span>{{ .text | markdownify }}</span>
-        </div>
+        <div class="hero-badge">{{ .text | markdownify }}</div>
         {{ end }}
       </div>
     </div>
