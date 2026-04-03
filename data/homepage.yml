@@ -16,7 +16,7 @@ sections:
       - title: "On-Device AI"
         description: "Shipped the first on-device language model features in a consumer flagship — recognized as one of the top tech innovations of 2023."
       - title: "Revenue"
-        description: "Biggest ads revenue uplift in product history — AlphaGo-style bandit algorithm deployed to 1B+ users."
+        description: "Significant relative ad CTR lift — AlphaGo-style bandit algorithm deployed to 1B+ users."
       - title: "Scale"
         description: "Empowered 80k+ engineers with LLM-based developer tools — one of the largest internal AI enablement programs in the industry."
       - title: "Safety"
@@ -24,7 +24,7 @@ sections:
       - title: "DeepMind"
         description: "Part of the first team to take DeepMind research from lab to consumer product — bridging fundamental research and product delivery at a scale most AI teams never encounter."
       - title: "AI Transformation"
-        description: "Redirected a PE-backed fintech's AI roadmap in the first quarter — team shifted to high-impact problems and shipped the first product change that moved revenue."
+        description: "Redirected a fintech's AI roadmap in the first quarter — team shifted to high-impact problems and delivered the largest accuracy improvement in the product's history."
 
 cta_cards:
   - title: "The Fractional CAIO"
