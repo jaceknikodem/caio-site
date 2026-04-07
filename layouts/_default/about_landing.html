@@ -109,7 +109,7 @@
 
     .value-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
     }
 
@@ -127,16 +127,13 @@
     }
 
     .value-card h3 {
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
+        font-size: 1.1rem;
+        margin-bottom: 0.75rem;
         font-weight: 700;
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
     }
 
     .value-card p {
-        font-size: 1.05rem;
+        font-size: 0.95rem;
         line-height: 1.6;
         color: #555;
         margin: 0;
@@ -262,57 +259,66 @@
         background: var(--default-text);
         color: #fff;
     }
+
     .pain-container {
         max-width: var(--site-max-width);
         margin: 0 auto;
     }
+
     .pain-header {
         text-align: center;
         margin-bottom: 2rem;
     }
+
     .pain-eyebrow {
         font-size: 0.8rem;
         letter-spacing: 0.1em;
         text-transform: uppercase;
-        color: rgba(255,255,255,0.5);
+        color: rgba(255, 255, 255, 0.5);
         margin-bottom: 0.5rem;
     }
+
     .pain-header h2 {
         font-size: 2rem;
         font-weight: 700;
         color: #fff;
         margin: 0;
     }
+
     .pain-quotes {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
         margin-bottom: 2rem;
     }
+
     .pain-quote {
-        background: rgba(255,255,255,0.05);
-        border: 1px solid rgba(255,255,255,0.1);
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 12px;
         padding: 1.75rem;
     }
+
     .pain-quote-mark {
         font-size: 3rem;
         line-height: 0.8;
-        color: rgba(255,255,255,0.2);
+        color: rgba(255, 255, 255, 0.2);
         font-family: 'Playfair Display', serif;
         margin-bottom: 0.75rem;
     }
+
     .pain-quote p {
         font-size: 0.95rem;
         line-height: 1.65;
-        color: rgba(255,255,255,0.8);
+        color: rgba(255, 255, 255, 0.8);
         margin: 0;
         font-style: italic;
     }
+
     .pain-footer-note {
         text-align: center;
         font-size: 1rem;
-        color: rgba(255,255,255,0.55);
+        color: rgba(255, 255, 255, 0.55);
         max-width: 640px;
         margin: 0 auto;
     }
@@ -322,22 +328,26 @@
         padding: 3rem 1.5rem;
         background: var(--default-light);
     }
+
     .wyg-container {
         max-width: var(--site-max-width);
         margin: 0 auto;
     }
-    .wyg-container > h2 {
+
+    .wyg-container>h2 {
         font-size: 2rem;
         font-weight: 700;
         color: var(--default-green);
         text-align: center;
         margin: 0 0 2rem 0;
     }
+
     .wyg-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 1.5rem;
     }
+
     .wyg-card {
         background: #fff;
         border: 1px solid #eaeaea;
@@ -345,16 +355,19 @@
         padding: 2rem;
         transition: box-shadow 0.3s ease, border-color 0.3s ease;
     }
+
     .wyg-card:hover {
-        box-shadow: 0 10px 30px rgba(0,0,0,0.07);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
         border-color: var(--default-green);
     }
+
     .wyg-card h3 {
         font-size: 1.1rem;
         font-weight: 700;
         color: var(--default-text);
         margin: 0 0 0.75rem 0;
     }
+
     .wyg-card p {
         font-size: 0.95rem;
         line-height: 1.6;
@@ -367,10 +380,12 @@
         padding: 3rem 1.5rem;
         background: #fff;
     }
+
     .compare-container {
         max-width: var(--site-max-width);
         margin: 0 auto;
     }
+
     .compare-headline {
         font-size: 1.25rem;
         font-weight: 700;
@@ -380,20 +395,24 @@
         margin: 0 auto 2rem;
         line-height: 1.4;
     }
+
     .compare-wrap {
         overflow-x: auto;
         border-radius: 12px;
         border: 1px solid #e0e0e0;
         background: #fff;
     }
+
     .compare-tbl {
         width: 100%;
         border-collapse: collapse;
-        min-width: 640px;
+        min-width: 800px;
     }
+
     .compare-tbl thead tr {
         background: var(--default-text);
     }
+
     .compare-tbl thead th {
         padding: 1rem 1.25rem;
         font-size: 0.88rem;
@@ -401,38 +420,46 @@
         text-align: left;
         color: #fff;
     }
+
     .compare-tbl thead th.th-caio {
         background: var(--default-green);
         font-weight: 700;
     }
+
     .compare-tbl thead th.th-empty {
-        color: rgba(255,255,255,0.45);
+        color: rgba(255, 255, 255, 0.45);
         font-size: 0.75rem;
     }
+
     .compare-tbl tbody tr {
         border-top: 1px solid #f0f0f0;
     }
+
     .compare-tbl tbody tr:hover {
         background: #fafafa;
     }
+
     .compare-tbl td {
         padding: 0.9rem 1.25rem;
         font-size: 0.9rem;
         line-height: 1.5;
         vertical-align: top;
     }
+
     .compare-tbl td.td-attr {
         font-weight: 700;
         color: var(--default-text);
         font-size: 0.85rem;
         white-space: nowrap;
     }
+
     .compare-tbl td.td-caio {
-        background: rgba(0,77,61,0.05);
+        background: rgba(0, 77, 61, 0.05);
         color: var(--default-text);
         font-weight: 500;
         border-left: 2px solid var(--default-green);
     }
+
     .compare-tbl td.td-other {
         color: #777;
     }
@@ -442,29 +469,34 @@
         padding: 3rem 1.5rem;
         background: var(--default-light);
     }
+
     .testi-container {
         max-width: var(--site-max-width);
         margin: 0 auto;
     }
-    .testi-container > h2 {
+
+    .testi-container>h2 {
         font-size: 2rem;
         font-weight: 700;
         color: var(--default-green);
         text-align: center;
         margin: 0 0 2rem 0;
     }
+
     .testi-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1.5rem;
         margin-bottom: 1.75rem;
     }
+
     .testi-card {
         background: var(--default-light);
         border: 1px solid #eaeaea;
         border-radius: 12px;
         padding: 2rem;
     }
+
     .testi-text {
         font-size: 1rem;
         line-height: 1.7;
@@ -472,29 +504,163 @@
         font-style: italic;
         margin: 0 0 1.25rem 0;
     }
+
     .testi-role {
         font-size: 0.85rem;
         color: var(--default-gray);
         font-weight: 600;
     }
+
     .testi-more {
         text-align: center;
     }
+
     .testi-more a {
         color: var(--default-green);
         font-weight: 600;
         text-decoration: none;
         font-size: 0.95rem;
     }
+
     .testi-more a:hover {
         text-decoration: underline;
     }
 
     @media (max-width: 900px) {
+
         .pain-quotes,
         .wyg-grid,
         .testi-grid {
             grid-template-columns: 1fr;
+        }
+    }
+
+    /* ── Phase list ── */
+    .phase-list {
+        margin: 0.5rem 0 0 0;
+        padding-left: 1.1rem;
+        font-size: 0.92rem;
+        line-height: 1.7;
+        color: var(--default-text);
+    }
+
+    .phase-list li {
+        margin-bottom: 0.15rem;
+    }
+
+    /* ── Diagnostic 2x2 ── */
+    .diagnostic-section {
+        padding: 3rem 1.5rem;
+        background: #fff;
+    }
+
+    .diagnostic-container {
+        max-width: var(--site-max-width);
+        margin: 0 auto;
+    }
+
+    .diagnostic-container>h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--default-green);
+        text-align: center;
+        margin: 0 0 1rem 0;
+    }
+
+    .diagnostic-intro {
+        text-align: center;
+        color: #555;
+        font-size: 1rem;
+        line-height: 1.6;
+        max-width: 680px;
+        margin: 0 auto 2rem;
+    }
+
+    .diagnostic-wrap {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        max-width: 680px;
+        margin: 0 auto;
+    }
+
+    .diagnostic-y-label {
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        font-size: 0.72rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--default-gray);
+        white-space: nowrap;
+    }
+
+    .diagnostic-inner {
+        flex: 1;
+    }
+
+    .diagnostic-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .quadrant {
+        padding: 1.4rem;
+        border: 1px solid #e8e8e8;
+    }
+
+    .q-execute {
+        background: rgba(0, 77, 61, 0.06);
+    }
+
+    .q-build {
+        background: #fafafa;
+    }
+
+    .q-discover {
+        background: #fffbf2;
+    }
+
+    .q-doublegap {
+        background: #fafafa;
+    }
+
+    .q-name {
+        font-weight: 700;
+        font-size: 0.95rem;
+        margin-bottom: 0.4rem;
+        color: var(--default-text);
+    }
+
+    .q-execute .q-name {
+        color: var(--default-green);
+    }
+
+    .q-desc {
+        font-size: 0.83rem;
+        line-height: 1.5;
+        color: #666;
+    }
+
+    .diagnostic-x-label {
+        text-align: center;
+        font-size: 0.72rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--default-gray);
+        margin-top: 0.6rem;
+    }
+
+    @media (max-width: 900px) {
+        .diagnostic-wrap {
+            flex-direction: column;
+        }
+
+        .diagnostic-y-label {
+            writing-mode: horizontal-tb;
+            transform: none;
         }
     }
 </style>
@@ -542,7 +708,8 @@
                 </div>
                 {{ end }}
             </div>
-            <p class="pain-footer-note">CEOs already know AI matters — but many still hesitate. And they're falling behind faster-moving peers.</p>
+            <p class="pain-footer-note">CEOs already know AI matters — but many still hesitate. And they're falling
+                behind faster-moving peers.</p>
         </div>
     </section>
 
@@ -584,17 +751,69 @@
             <h2>How it works</h2>
             <div class="phases-flow">
                 <div class="phase-card">
-                    <div class="phase-label">Strategy</div>
-                    <div class="phase-duration">3–8 weeks · embedded</div>
-                    <div class="phase-desc">Diagnose the problem. Align leadership. Walk away with a plan.</div>
-                    <div class="phase-outcome">Board-ready decision.</div>
+                    <div class="phase-label">Diagnosis & Strategy</div>
+                    <div class="phase-duration">3-8 weeks · in-person</div>
+                    <div class="phase-desc">
+                        <ul class="phase-list">
+                            <li>AI theatre audit — kill list of projects burning resources without a production path
+                            </li>
+                            <li>Hypothesis tree — validated bets with evidence</li>
+                            <li>Leadership alignment, stakeholder sequencing, board-ready presentation</li>
+                        </ul>
+                    </div>
+                    <div class="phase-outcome">Strategy doc · 12-month roadmap · board presentation</div>
                 </div>
                 <div class="phase-arrow">→</div>
                 <div class="phase-card">
-                    <div class="phase-label">Implementation</div>
+                    <div class="phase-label">Execution Support</div>
                     <div class="phase-duration">9 months · fractional</div>
-                    <div class="phase-desc">Your team ships it, with weekly guidance and course-corrections.</div>
-                    <div class="phase-outcome">Your team owns the capability.</div>
+                    <div class="phase-desc">
+                        <ul class="phase-list">
+                            <li>3-4 syncs/week with engineering, weekly C-suite, quarterly board</li>
+                            <li>Milestone gates — not calendar timelines</li>
+                            <li>Parallel workstreams: product eng + ML running simultaneously</li>
+                            <li>Shadow leadership: coaching your AI lead to run it without me</li>
+                        </ul>
+                    </div>
+                    <div class="phase-outcome">Your team runs it. No ongoing dependency.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diagnostic 2x2 -->
+    <section class="diagnostic-section">
+        <div class="diagnostic-container">
+            <h2>How I assess a company</h2>
+            <p class="diagnostic-intro">Every engagement starts with a diagnostic. The output is a position on two
+                dimensions: the company's actual AI capability, and the potential for AI to drive value in their
+                business. Both matter — one without the other changes the engagement entirely.</p>
+            <div class="diagnostic-wrap">
+                <div class="diagnostic-y-label">AI Capability →</div>
+                <div class="diagnostic-inner">
+                    <div class="diagnostic-grid">
+                        <div class="quadrant q-build">
+                            <div class="q-name">Build</div>
+                            <div class="q-desc">Strong team, limited AI potential in current model. The constraint is
+                                finding the right problems, not building the solutions.</div>
+                        </div>
+                        <div class="quadrant q-execute">
+                            <div class="q-name">Execute</div>
+                            <div class="q-desc">High capability, high potential. Scale what's working. Where every
+                                portco should end up.</div>
+                        </div>
+                        <div class="quadrant q-doublegap">
+                            <div class="q-name">Double Gap</div>
+                            <div class="q-desc">Low capability, limited AI potential. Foundational work needed before
+                                AI investment makes sense.</div>
+                        </div>
+                        <div class="quadrant q-discover">
+                            <div class="q-name">Discover</div>
+                            <div class="q-desc">High potential, weak capability. Lots of opportunity — the constraint
+                                is building the team and infrastructure to capture it.</div>
+                        </div>
+                    </div>
+                    <div class="diagnostic-x-label">AI Potential →</div>
                 </div>
             </div>
         </div>
@@ -613,6 +832,7 @@
                             <th>Strategy firm</th>
                             <th>AI software house</th>
                             <th>Full-time hire</th>
+                            <th>We build it ourselves</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -623,6 +843,7 @@
                             <td class="td-other">{{ .big_firms }}</td>
                             <td class="td-other">{{ .software_house }}</td>
                             <td class="td-other">{{ .full_hire }}</td>
+                            <td class="td-other">{{ .self_build }}</td>
                         </tr>
                         {{ end }}
                     </tbody>

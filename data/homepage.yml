@@ -16,7 +16,7 @@ sections:
       - title: "On-Device AI"
         description: "Shipped the first on-device language model features in a consumer flagship — recognized as one of the top tech innovations of 2023."
       - title: "Revenue"
-        description: "Significant relative ad CTR lift — AlphaGo-style bandit algorithm deployed to 1B+ users."
+        description: "Biggest relative ad CTR lift in the product history — bandit algorithm deployed to 1B+ users."
       - title: "Scale"
         description: "Empowered 80k+ engineers with LLM-based developer tools — one of the largest internal AI enablement programs in the industry."
       - title: "Safety"

@@ -1,7 +1,7 @@
 hero:
   title: "The Fractional CAIO"
   subtitle: "You're investing in AI. You're not shipping products that move revenue. That's what this engagement fixes."
-  description: "You're investing in AI — $500k–$3M a year in engineering — and nothing is shipping that moves revenue or cuts cost. That's a fixable problem.\n\nI run **AI transformation programs** for **PE-backed SaaS and fintech companies** valued above **$1B**. The outcome: product changes that move metrics, engineering spend that returns instead of burning, and a team that can run and extend AI without me after 12 months.\n\n**The goal of every engagement is my own redundancy.** I work through your team, not over them — on your existing stack, with no vendor lock-in, no outsourcing, no AI theatre."
+  description: "You're investing over $1M in AI — and nothing is shipping that moves revenue or cuts cost. That's a fixable problem.\n\nFrom DeepMind to shipping to a billion users to board-level advisory — the combination doesn't exist anywhere else.\n\nI run **AI transformation programs** for **PE-backed SaaS and fintech companies** valued above **$1B**. The outcome: product changes that move metrics, engineering spend that returns instead of burning, and a team that can run and extend AI without me after 12 months.\n\n**The goal of every engagement is my own redundancy.** I work through your team, not over them — on your existing stack, with no vendor lock-in, no outsourcing, no AI theatre."
 
 stats:
   - value: "1B+"
@@ -10,18 +10,20 @@ stats:
     label: "Product Launches"
   - value: "$300M+"
     label: "Revenue Generated"
-  - value: ">12Y"
-    label: "Applied ML Experience"
+  - value: "27k hrs"
+    label: "Applied ML expertise"
 
 value_prop:
-  title: "Why partner up?"
+  title: "What makes this different"
   items:
-    - title: "Technical depth"
-      description: "27,000 hours of expertise (recommenders, NLP, CV, RL). That means I engage credibly from CEO conversation to VLLM config — without a team of consultants behind me."
-    - title: "The trifecta no other advisor has"
-      description: "Top AI lab background (DeepMind) + shipped to billions + full altitude range from board strategy to engineering detail. Each attribute exists individually in other advisors. The combination doesn't."
-    - title: "Organizational fluency"
-      description: "Most AI failures aren't technical — they're organizational. Getting real information out of teams that communicate indirectly, building trust in hierarchical structures, getting honest assessments from people who won't say it straight: these are learned skills. They change the quality of the diagnosis."
+    - title: "I redirect the work when I see a better use of it"
+      description: "Most consultants execute the brief they're given. When I see a higher-leverage opportunity — even if it means redirecting away from the original scope — I name it and move there. That judgment is the service."
+    - title: "Vertically integrated across the org"
+      description: "CEO (AI investment confidence, product direction) → CTO (coaching the AI leader) → Engineers (technical depth). In the same week. Most advisors stay at one altitude. The value here compounds across all three."
+    - title: "I surface what the org can't say directly"
+      description: "In hierarchical organizations, the real problems rarely come up in meetings. Getting honest signal from teams that communicate indirectly — and naming what everyone knows but no one says — is a learned skill. It changes the quality of the diagnosis."
+    - title: "There's no handover because I never held anything"
+      description: "I work through the team, not over them. Every artifact is co-created and immediately absorbed. By the time the engagement ends, the team can't tell where my thinking ends and theirs begins."
 
 pain_points:
   subtitle: "AI failures aren't unique. They're often predictable and preventable."
@@ -36,7 +38,7 @@ what_you_get:
     - title: "Revenue and cost that move"
       description: "AI products ship and change metrics — conversion, ARPU, retention, support deflection. Not experiments that sit in staging."
     - title: "Engineering spend that returns"
-      description: "$500k–$3M/year in AI engineering stops burning on misdirected bets. Direction is validated before the sprint starts."
+      description: "Over $1M/year in AI engineering stops burning on misdirected bets. Direction is validated before the sprint starts."
     - title: "A team that runs it without me"
       description: "By month twelve, your team can run and extend AI without external dependency — a higher exit multiple for the fund, and no ongoing consulting cost."
 
@@ -48,21 +50,25 @@ comparison:
       big_firms: "Slide deck and a plan"
       software_house: "Built product — ongoing dependency"
       full_hire: "A person who needs direction you don't yet have"
+      self_build: "Whatever your team can figure out — no external benchmark on what good looks like"
     - attribute: "After engagement"
       caio: "Your team runs it without me"
       big_firms: "You have a roadmap"
       software_house: "You have a product you can't extend"
       full_hire: "6–12 months to get up to speed"
+      self_build: "You own it — and all the direction risk that came with it"
     - attribute: "Talent development"
       caio: "Core focus — build and coach your AI team"
       big_firms: "Rare"
       software_house: "None — they own the capability"
       full_hire: "Self-directed — needs leadership"
+      self_build: "Grows slowly — no external coaching or pattern-matching from other engagements"
     - attribute: "Vendor dependency"
       caio: "None — works on your existing stack"
       big_firms: "May push proprietary tools"
       software_house: "High — architecture tied to their team"
       full_hire: "None"
+      self_build: "None"
 
 testimonials_inline:
   - text: "Jack brought a structured approach to prioritizing AI projects. His energy, clarity, and directness helped us shift focus to higher-impact areas, make better use of existing resources, and adopt a hypothesis-driven process."
