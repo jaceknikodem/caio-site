@@ -3,7 +3,7 @@ title: "Yayoi: The Accounting Software Playbook, Japan Edition"
 topic: "PE & AI"
 summary: "KKR is running the standard PE incumbent playbook on Japan's leading accounting software. This is where the standard playbook breaks — and what the operating partner needs to execute before the window closes."
 weight: 11
-preview: true
+preview: false
 written: "17th March 2026"
 ---
 
