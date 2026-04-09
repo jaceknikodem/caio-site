@@ -392,8 +392,79 @@
         text-align: center;
         color: var(--default-text);
         max-width: 700px;
-        margin: 0 auto 2rem;
+        margin: 0 auto 1rem;
         line-height: 1.4;
+    }
+
+    .compare-anchor {
+        text-align: center;
+        color: #555;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        max-width: 640px;
+        margin: 0 auto 2rem;
+    }
+
+    /* ── Not a fit ── */
+    .naf-section {
+        padding: 3rem 1.5rem;
+        background: #fff;
+        border-top: 1px solid #f0f0f0;
+    }
+
+    .naf-container {
+        max-width: var(--site-max-width);
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 3rem;
+        align-items: start;
+    }
+
+    .naf-header h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--default-text);
+        margin: 0 0 0.5rem 0;
+    }
+
+    .naf-header p {
+        font-size: 0.9rem;
+        color: var(--default-gray);
+        margin: 0;
+        line-height: 1.5;
+    }
+
+    .naf-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .naf-list li {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        color: #555;
+        padding-left: 1.25rem;
+        position: relative;
+    }
+
+    .naf-list li::before {
+        content: "×";
+        position: absolute;
+        left: 0;
+        color: #bbb;
+        font-weight: 700;
+    }
+
+    @media (max-width: 900px) {
+        .naf-container {
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
     }
 
     .compare-wrap {
@@ -823,6 +894,9 @@
     <section class="compare-section">
         <div class="compare-container">
             <p class="compare-headline">{{ .comparison.title }}</p>
+            <p class="compare-anchor">The fee is sized relative to what's at stake. At $100M ARR, a 5% improvement on a
+                core metric generates $5M annually — the engagement costs a fraction of year one, and after that the
+                improvement compounds and you keep all of it.</p>
             <div class="compare-wrap">
                 <table class="compare-tbl">
                     <thead>
@@ -830,6 +904,7 @@
                             <th class="th-empty"></th>
                             <th class="th-caio">The Fractional CAIO</th>
                             <th>Strategy firm</th>
+                            <th>AI strategy boutique</th>
                             <th>AI software house</th>
                             <th>Full-time hire</th>
                             <th>We build it ourselves</th>
@@ -841,6 +916,7 @@
                             <td class="td-attr">{{ .attribute }}</td>
                             <td class="td-caio">{{ .caio }}</td>
                             <td class="td-other">{{ .big_firms }}</td>
+                            <td class="td-other">{{ .ai_boutique }}</td>
                             <td class="td-other">{{ .software_house }}</td>
                             <td class="td-other">{{ .full_hire }}</td>
                             <td class="td-other">{{ .self_build }}</td>
@@ -865,6 +941,21 @@
                 {{ end }}
             </div>
             <div class="testi-more"><a href="/testimonials/">Read all testimonials →</a></div>
+        </div>
+    </section>
+
+    <!-- Not a fit -->
+    <section class="naf-section">
+        <div class="naf-container">
+            <div class="naf-header">
+                <h2>{{ .not_a_fit.title }}</h2>
+                <p>{{ .not_a_fit.intro }}</p>
+            </div>
+            <ul class="naf-list">
+                {{ range .not_a_fit.items }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
         </div>
     </section>
 
