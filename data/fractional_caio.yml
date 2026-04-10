@@ -22,8 +22,8 @@ value_prop:
       description: "CEO (AI investment confidence, product direction) → CTO (coaching the AI leader) → Engineers (technical depth). In the same week. Most advisors stay at one altitude. The value here compounds across all three."
     - title: "I surface what the org can't say directly"
       description: "In hierarchical organizations, the real problems rarely come up in meetings. Getting honest signal from teams that communicate indirectly — and naming what everyone knows but no one says — is a learned skill. It changes the quality of the diagnosis."
-    - title: "There's no handover because I never held anything"
-      description: "I work through the team, not over them. Every artifact is co-created and immediately absorbed. By the time the engagement ends, the team can't tell where my thinking ends and theirs begins."
+    - title: "It's actually me in every session — no junior team, no delegation"
+      description: "Most firms sell partner access and deliver analyst hours. I'm in the room from kickoff through month twelve — same person, no team behind the curtain. The person who was thinking about your problem before the first call is the same person at month eleven."
 
 pain_points:
   subtitle: "AI failures aren't unique. They're often predictable and preventable."
