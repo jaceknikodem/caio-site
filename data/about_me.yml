@@ -6,7 +6,7 @@ items:
   - title: "Google Pixel"
     date: "2023"
     category: "Mobile AI"
-    description: "Recorder Summarization - the first foundational language models on mobile devices (<a href='https://blog.google/technology/ai/google-gemini-ai/' target='_blank'>press</a>), awarded one of the 10 tech innovation at Google in 2023.\nLLM-based weather summarization and diffusion-based weather background generation.\nBandit-based recommender for Pixel."
+    description: "Recorder Summarization - the first foundational language models on mobile devices (<a href='https://blog.google/technology/ai/google-gemini-ai/' target='_blank'>press</a>).\nLLM-based weather summarization and diffusion-based weather background generation.\nBandit-based recommender for Pixel."
 
   - title: "Developer Tools"
     date: "2022"

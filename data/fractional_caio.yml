@@ -74,6 +74,18 @@ comparison:
       full_hire: "None"
       self_build: "None"
 
+what_you_bring:
+  title: "What you bring"
+  items:
+    - title: "Committed engineers"
+      description: "Dedicated ML and product engineers allocated to AI work — not borrowed from other priorities mid-sprint."
+    - title: "C-suite access"
+      description: "Weekly sync with CEO or CPO. AI decisions can't route through three layers — the people who can unblock need to be in the room."
+    - title: "Compute budget"
+      description: "Infrastructure in place or budget allocated. This engagement is for companies that have decided to invest, not ones still exploring whether to."
+    - title: "Willingness to push to production"
+      description: "An internal deployment process that can move in weeks, not quarters. The goal is shipped product — that requires a team ready to release."
+
 not_a_fit:
   title: "Not the right fit"
   intro: "I take on 2-3 engagements per year. Being direct about fit saves both sides time."
