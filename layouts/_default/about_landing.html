@@ -62,7 +62,7 @@
         max-width: var(--site-max-width);
         margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 1.5rem;
         text-align: center;
     }
@@ -787,8 +787,7 @@
         }
 
         .diagnostic-y-label {
-            writing-mode: horizontal-tb;
-            transform: none;
+            display: none;
         }
     }
 </style>
@@ -909,12 +908,13 @@
         </div>
     </section>
 
+    {{ with .what_you_bring }}
     <!-- What You Bring -->
     <section class="wyb-section">
         <div class="wyb-container">
-            <h2>{{ .what_you_bring.title }}</h2>
+            <h2>{{ .title }}</h2>
             <div class="wyb-grid">
-                {{ range .what_you_bring.items }}
+                {{ range .items }}
                 <div class="wyb-card">
                     <h3>{{ .title }}</h3>
                     <p>{{ .description }}</p>
@@ -923,6 +923,7 @@
             </div>
         </div>
     </section>
+    {{ end }}
 
     <!-- Diagnostic 2x2 -->
     <section class="diagnostic-section">
