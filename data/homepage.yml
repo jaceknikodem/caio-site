@@ -1,12 +1,13 @@
 hero:
   title: "Jack Nikodem"
-  subtitle: "I work inside your team until the AI ships, revenue moves, and you don't need me anymore."
+  subtitle: "I build the team that ships AI — so the capability stays when I leave."
   image: "/images/jack.png"
   badges:
     - text: "20+ AI products shipped to 1B+ users"
     - text: "$300M+ in revenue impact across product launches"
     - text: "Built and strengthened AI teams at world-class AI labs and PE-backed companies"
     - text: "Trusted by PE fund partners and portfolio company CEOs across APAC and Americas"
+    - text: "Most AI projects fail on people and change, not engineering — that's the gap I close"
 
 sections:
   - title: "Where I made a difference"
@@ -27,7 +28,7 @@ sections:
 
 cta_cards:
   - title: "The Fractional CAIO"
-    description: "I help PE-backed SaaS and fintech companies that are investing in AI but not shipping products that move revenue — through a 12-month program that ends with your team able to run it without me."
+    description: "I help PE-backed SaaS and fintech companies that are investing in AI but not shipping products that move revenue. Not a software vendor — a 12-month program that ends with your team able to run it without me."
     link: "/the-fractional-caio/"
     link_text: "View services"
     image: "/images/ping.gif" # Placeholder/abstract
