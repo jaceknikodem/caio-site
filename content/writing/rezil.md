@@ -3,7 +3,7 @@ title: "Rezil: The Well-Timed Virtual Grid Play"
 topic: "PE & AI"
 summary: "Bain took a Japan energy retailer private at 7x EBITDA. The real thesis isn't margin improvement — it's whether 2,200 substations become grid infrastructure before a regulatory window closes."
 weight: 13
-preview: true
+preview: false
 written: "10th April 2026"
 ---
 
